@@ -1,0 +1,2253 @@
+{
+    "id": 19932,
+    "modelId": 16884,
+    "name": "v1.0",
+    "createdAt": "2023-03-07T19:03:33.544Z",
+    "updatedAt": "2023-03-13T14:54:04.867Z",
+    "trainedWords": [
+        "stephgonz"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Stephany Gonzalez (Instagram model)",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "stephgonz.pt",
+            "id": 16633,
+            "sizeKB": 15.9228515625,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-07T19:16:40.283Z",
+            "hashes": {
+                "AutoV2": "789943818C",
+                "SHA256": "789943818CD64A20C9205995DDB8F9CA4A305C957C178341C2FCE09102BB3770",
+                "CRC32": "E9ACB896",
+                "BLAKE3": "D2B29FD4B42A4C27CCB9993A7E9B637AE4678C7F37E074AB1C5170FDB5392F96"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/19932"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bb0ecba8-bf9c-49f3-d490-1c24a30fed00/width=450/210300",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UMG*vf-Ux[W:.SIoF3X9X:D*^k%1_Ne-s.xa",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3791053583,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "photo of (stephgonz), a woman as a movie star, modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), ((movie premiere gala)), ((standing on the red carpet)), ((paparazzi in the background)), (looking at viewer), (detailed eyes:1.2), (elegant blue dress:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((nsfw)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15735,
+                        "name": "gown",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5787,
+                        "name": "jewelry",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5942,
+                        "name": "necklace",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d5714531-52a4-4ddc-d45e-a21800feac00/width=450/210812",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UOHxc=~pI:S#JC%g%N%M-;-;-;tR%2%Mt7V@",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4277285018,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "picture of (stephgonz:1), a woman (dressed as a cheerleader), (white skirt:1.1), (green top:1.1),  modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (perfect thighs), (in a high school basketball court:1.3), (sexy outfit:1.2), (looking at viewer), (detailed eyes:1.2), (sfw), (cleavage:1.1)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (nsfw)",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b7114c9-804a-4f9b-9ad6-b656fd6fcc00/width=450/210310",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UIIq_s00Io%M0KRP?^Mw-;em?bS5.SM{%2R+",
+            "meta": {
+                "Size": "512x768",
+                "seed": 997194725,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "picture of (stephgonz:1), a woman (wearing a white top:1.2), (wearing tight leather trousers:1.3), modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), (walking down the street), (in new york:1.2), (looking at viewer), (detailed pupils:1.3), (windblown hair:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (nsfw), (((cross-eyed)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e8f7d2c-18aa-4152-01c8-d0f84d5f0000/width=450/210308",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "URH-uw-:WAe.Q,M{M{WB~q%2ads.IpNGRPof",
+            "meta": {
+                "Size": "512x768",
+                "seed": 828310480,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "picture of (stephgonz:1), a woman (wearing a red top:1.2), (wearing tight leather trousers:1.3), modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), (walking down the street), (in barcelona:1.2), (looking at viewer), (detailed pupils:1.3), (windblown hair:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (nsfw), (((cross-eyed)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f9c09164-5416-4518-2b89-31b294b7ac00/width=450/210811",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UCHL3n4:00~W01-:%gM|~qxtobIUyYNGM{tR",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4277285023,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "picture of (stephgonz:1), a woman (dressed as a cheerleader), (white skirt:1.1), (green top:1.1),  modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (perfect thighs), (in a high school basketball court:1.3), (sexy outfit:1.2), (looking at viewer), (detailed eyes:1.2), (sfw), (cleavage:1.1)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (nsfw)",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4286,
+                        "name": "miniskirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8947,
+                        "name": "blouse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15746,
+                        "name": "skirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d7885804-992a-4f29-12be-bbfb6ff97c00/width=450/210307",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UFI;u3E100~pOr~p%$nN%$-p?GR-?wS~wcx]",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3438697842,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "photo of (stephgonz), a woman as a movie star, modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), ((movie premiere gala)), ((standing on the red carpet)), ((paparazzi in the background)), (looking at viewer), (detailed pupils:1.3), (elegant white dress:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((nsfw)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 26902,
+                        "name": "premiere",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 26903,
+                        "name": "red carpet",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5232,
+                        "name": "man",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8250,
+                        "name": "swimwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5231,
+                        "name": "male",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15735,
+                        "name": "gown",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8879,
+                        "name": "back",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4889c33d-86b2-4081-6b1b-5e06c1b91000/width=450/210306",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UGFh#B-VDiM{Z#R*o}WXjEs.IptR_NozD%IU",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1589807518,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "photo of (stephgonz:0.98), a woman in a (leather jacket:1.2), (wearing a striped sweater:1.2), modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (holding a cell phone:1.1), (sitting on a chair:1.2), (in a library:1.3), (looking at viewer), (detailed pupils:1.3)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((nsfw))), ((indian))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7632,
+                        "name": "publication",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7953,
+                        "name": "coat",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 19270,
+                        "name": "library",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1729,
+                        "name": "furniture",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 20614,
+                        "name": "phone",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7954,
+                        "name": "jacket",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21254,
+                        "name": "mobile phone",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21141,
+                        "name": "bookcase",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7631,
+                        "name": "bag",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7633,
+                        "name": "handbag",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9090,
+                        "name": "indoors",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1895,
+                        "name": "electronics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e52cb13-f0d3-492c-c130-3c7b67a5ec00/width=450/210305",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UGI#ibHq0000E14T?^WVX:D$%M-p9Zn$tRt7",
+            "meta": {
+                "Size": "512x768",
+                "seed": 997194722,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "picture of (stephgonz:1), a woman (wearing a white top:1.2), (wearing tight leather trousers:1.3), modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), (walking down the street), (in london:1.2), (looking at viewer), (detailed pupils:1.3), (windblown hair:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (nsfw), (((cross-eyed)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8250,
+                        "name": "swimwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2392,
+                        "name": "bikini",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5787,
+                        "name": "jewelry",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5973,
+                        "name": "bra",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5942,
+                        "name": "necklace",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8947,
+                        "name": "blouse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16021,
+                        "name": "shorts",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21021,
+                        "name": "undershirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15715,
+                        "name": "finger",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8979,
+                        "name": "hand",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3645,
+                        "name": "navel",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 20088,
+                        "name": "spandex",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c0bfb94-a7c8-41f7-392c-c34a1a0fb600/width=450/210304",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UbHo5t_N-p%gx]%gg4xuMxbH%Ms.aekWofIo",
+            "meta": {
+                "Size": "512x768",
+                "seed": 828310463,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "picture of (stephgonz:1), a woman (wearing a white top:1.2), (wearing tight leather trousers:1.3), modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), (walking down the street), (in coruscant:1.2), (looking at viewer), (detailed pupils:1.3), (windblown hair:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (nsfw), (((cross-eyed)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 16021,
+                        "name": "shorts",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16009,
+                        "name": "jeans",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21322,
+                        "name": "purse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8675,
+                        "name": "long sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8677,
+                        "name": "sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16001,
+                        "name": "pants",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8947,
+                        "name": "blouse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 20088,
+                        "name": "spandex",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7631,
+                        "name": "bag",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7633,
+                        "name": "handbag",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4286,
+                        "name": "miniskirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15746,
+                        "name": "skirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/550a2c43-8175-4077-569b-f89ff0b44800/width=450/210303",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UNG+2TD%%L~qIVs,4.o~_3M{adxux]V@xut7",
+            "meta": {
+                "Size": "512x768",
+                "seed": 828310468,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "picture of (stephgonz:1), a woman (wearing a black top:1.2), (wearing tight leather trousers:1.3), modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), (walking down the street), (in coruscant:1.2), (looking at viewer), (detailed pupils:1.3), (windblown hair:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (nsfw), (((cross-eyed)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 8675,
+                        "name": "long sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8677,
+                        "name": "sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2435,
+                        "name": "costume",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 20088,
+                        "name": "spandex",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15715,
+                        "name": "finger",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8979,
+                        "name": "hand",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16009,
+                        "name": "jeans",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8968,
+                        "name": "latex clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16001,
+                        "name": "pants",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7953,
+                        "name": "coat",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8622,
+                        "name": "footwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15690,
+                        "name": "high heel",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8628,
+                        "name": "shoe",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e6ee274-d435-4331-8cd8-9b89f935d300/width=450/210810",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "URHe8.~VInIVO[x]t8x[rrkD-;ogWEn$kCxZ",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4277285024,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "picture of (stephgonz:1), a woman (dressed as a cheerleader), (white skirt:1.1), (green top:1.1),  modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (perfect thighs), (in a high school basketball court:1.3), (sexy outfit:1.2), (looking at viewer), (detailed eyes:1.2), (sfw), (cleavage:1.1)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (nsfw)",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8947,
+                        "name": "blouse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16555,
+                        "name": "basketball (ball)",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15746,
+                        "name": "skirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4286,
+                        "name": "miniskirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15731,
+                        "name": "sphere",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3707,
+                        "name": "ball",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16511,
+                        "name": "basketball",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8570,
+                        "name": "sport",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3552,
+                        "name": "teen",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 20431,
+                        "name": "playing basketball",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16021,
+                        "name": "shorts",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 35474,
+                        "name": "hoop",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 18,
+                        "name": "girl",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/10eb7e4a-edb0-478d-db91-e140cde4c600/width=450/210302",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UUGuq9xv=]%LIokD9ao#~qbcxYj[tmt8slof",
+            "meta": {
+                "Size": "512x768",
+                "seed": 828310474,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "picture of (stephgonz:1), a woman (wearing a blue top:1.2), (wearing tight leather trousers:1.3), modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), (walking down the street), (in barcelona:1.2), (looking at viewer), (detailed pupils:1.3), (windblown hair:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (nsfw), (((cross-eyed)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16001,
+                        "name": "pants",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2435,
+                        "name": "costume",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8677,
+                        "name": "sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 20088,
+                        "name": "spandex",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8675,
+                        "name": "long sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8947,
+                        "name": "blouse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16021,
+                        "name": "shorts",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8968,
+                        "name": "latex clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8622,
+                        "name": "footwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15690,
+                        "name": "high heel",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8628,
+                        "name": "shoe",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16009,
+                        "name": "jeans",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a1a6a92-7ace-4e2a-ff76-637598c41900/width=450/210301",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UCF#t0IV4U~V^+xu%MRQ~pR*57tR5mxtr?D*",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1589807517,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "photo of (stephgonz:0.98), a woman in a (leather jacket:1.2), (wearing a striped sweater:1.2), modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (holding a cell phone:1.1), (sitting on a chair:1.2), (in a library:1.3), (looking at viewer), (detailed pupils:1.3)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "R-ESRGAN 4x+",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((nsfw))), ((indian))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 9090,
+                        "name": "indoors",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21141,
+                        "name": "bookcase",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21251,
+                        "name": "shelf",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 19270,
+                        "name": "library",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7632,
+                        "name": "publication",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1729,
+                        "name": "furniture",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7953,
+                        "name": "coat",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7954,
+                        "name": "jacket",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7620,
+                        "name": "book",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/19932"
+}

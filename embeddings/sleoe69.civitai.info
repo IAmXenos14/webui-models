@@ -1,0 +1,202 @@
+{
+    "id": 6605,
+    "modelId": 5675,
+    "name": "v1.0",
+    "createdAt": "2023-01-29T13:36:43.343Z",
+    "updatedAt": "2023-01-29T13:37:32.384Z",
+    "trainedWords": [
+        "sleoe69"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>should work just fine, tell me if fine tuning is required</p>",
+    "model": {
+        "name": "Sunny Leone",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "sleoe69.pt",
+            "id": 6821,
+            "sizeKB": 24.931640625,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-01-29T13:42:08.088Z",
+            "hashes": {
+                "AutoV2": "9891704418",
+                "SHA256": "989170441801EC5601497BB21C43512CC442A9EFF25855F440ECDE9274F339B6",
+                "CRC32": "7F0C96BF",
+                "BLAKE3": "44D9551CE83BC374F68F9AA974CC10E5B647DBF046579382542625FD475C8F49"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/6605"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1c6131ed-7fa1-42d6-9123-25b8075dc600/width=450/60047",
+            "nsfw": false,
+            "width": 720,
+            "height": 1000,
+            "hash": "UQI}L$$jt,xvBn~qaxNH?vx@VtxZxutRw_IU",
+            "meta": {
+                "Size": "720x1000",
+                "seed": 4152463835,
+                "Model": "deliberate_v11",
+                "steps": 24,
+                "prompt": "photo of sleoe69, a woman walking down the street, (((front to camera))), detailed  face, RAW, analog style, ultra detailed photograph, cinematic lighting, artstation, 4k, sharp focus, high resolution, detailed skin, detailed eyes",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.5"
+            },
+            "generationProcess": "inpainting",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/30bbaafe-2dde-4cfb-755f-f64eef8f1300/width=450/60049",
+            "nsfw": false,
+            "width": 720,
+            "height": 1000,
+            "hash": "UELLOB02%MvhGr#,-o%L0M=x}rbb}rxtIBE3",
+            "meta": {
+                "Size": "360x500",
+                "seed": 3426736239,
+                "Model": "deliberate_v11",
+                "steps": 24,
+                "prompt": "Portrait of sleoe69 wearing a red dress, ultra detailed photograph, cinematic lighting, artstation, 4k, sharp focus, high resolution, detailed skin, detailed eyes",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.66"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9117c363-7929-4b13-0ded-887483190800/width=450/60048",
+            "nsfw": false,
+            "width": 720,
+            "height": 1000,
+            "hash": "UNHTdC0z^%}@5RIVWBIp9u$*9uba5S^j-nNw",
+            "meta": {
+                "Size": "360x500",
+                "seed": 1044845823,
+                "Model": "deliberate_v11",
+                "steps": 24,
+                "prompt": "photo of sleoe69, a woman walking down the street, (((front to camera))), detailed  face, RAW, analog style, ultra detailed photograph, cinematic lighting, artstation, 4k, sharp focus, high resolution, detailed skin, detailed eyes",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.66"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a65136a6-df9c-4930-6294-78a244d37500/width=450/60051",
+            "nsfw": false,
+            "width": 720,
+            "height": 1000,
+            "hash": "UYKSq.p^cX+^yq~CaiScJUxtr]IoR*sobYRQ",
+            "meta": {
+                "Size": "360x500",
+                "seed": 1626660490,
+                "Model": "deliberate_v11",
+                "steps": 24,
+                "prompt": "photo of sleoe69, Style-Empire, 1girl, corset, cinematic, (portrait), sideface, foreshortening, blonde_hair, breasts, cleavage, full_body, high_heels, long_hair, solo, depth_of_field, outdoors, realistic, photo_\\(medium\\), photorealistic, (ultra-detailed:1.2), ((high ornamented dress)), detailed light, HDR",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.66"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc5b8f62-b95c-4751-7d0d-8758d7101700/width=450/60050",
+            "nsfw": false,
+            "width": 720,
+            "height": 1000,
+            "hash": "UXLDPsyCOY~pEN%M%MoJW=t6xZRk?bf6niNH",
+            "meta": {
+                "Size": "360x500",
+                "seed": 2428873704,
+                "Model": "deliberate_v11",
+                "steps": 24,
+                "prompt": "a photo of sleoe69, wearing a white (nightgown), ((lingerie)) in a farm, closeup shot, full body, extremely detailed, Playboy centerfold, Playmate, 8k, trending on ArtStation, Intricate, High Detail, Sharp focus, modelshot",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.66"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/6605"
+}

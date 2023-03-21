@@ -1,0 +1,633 @@
+{
+    "id": 19964,
+    "modelId": 16911,
+    "name": "v1.0",
+    "createdAt": "2023-03-07T21:11:00.960Z",
+    "updatedAt": "2023-03-10T14:53:40.655Z",
+    "trainedWords": [
+        "zoe_voss1"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>This one is definitely in need of improvement. Trained on 39 face-only images of retired pornstar and former fashion model Zoe Voss.</p><p>Does require a fair bit of coaxing to get her face and body right, particularly \"(((high cheekbones)))\" and various levels of \"skinny\".</p><p>I'll be trying again with full-body images, see what that brings.</p>",
+    "model": {
+        "name": "Zoe Voss",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "zoe_voss1.pt",
+            "id": 16663,
+            "sizeKB": 6.9375,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-07T21:16:35.415Z",
+            "hashes": {
+                "AutoV2": "DCE4E9BF0F",
+                "SHA256": "DCE4E9BF0FC6D8C43632414556A95A4FD3821085983F104CD61A9844A182C3A2",
+                "CRC32": "A6CE4EDF",
+                "BLAKE3": "A6413AC10D9E7DEDC8CFEA35FDBD7AB615818C46D1E0092845226AEAC58C99B1"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/19964"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4e1edca-f52d-4e84-2d05-8f66e4a50800/width=450/210730",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UCJ*SG002v00I7r:~90g9D%Mr:Iv?[RixZ$+",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1370425845,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "A professional photograph of a tall skinny:1.4 ZOE_VOSS1:1.1 wearing a black dress in a street. very short hair, heavy makeup. blusher. ((detailed face)), detailed teeth, eye contact. sharp features. (((high cheekbones))). slim:1.3, skinny:1.4, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photorealistic:1.37), best quality, hyper detailed, highres, 1girl. ((depth of field)). bokeh:1.3. ((Female focus)). warm lighting, RAW photo. fashion photoshoot.",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 11,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "22",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "((large breasts)), cleavage, disfigured, kitsch, ugly, oversaturated, grain, grainy, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, mutilated, mangled, old, surreal, black and white photograph. Unspeakable-Horrors-32v. child.",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.1"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43a01b7a-8699-4d46-1c97-78a5c6f28c00/width=450/210737",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UOIhdCysJ7^*8^-6tlo}9@ELrXIVo{t6OFIV",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4069739226,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "A professional photograph of a tall skinny:1.4 supermodel ZOE_VOSS1:1.3 wearing a blue bikini on a beach. very short hair, heavy makeup. blusher ((detailed face)), detailed teeth, eye contact. sharp features, (((high cheekbones))). slim:1.3, skinny:1.4, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photorealistic:1.37), best quality, hyper detailed, highres, 1girl. ((depth of field)). bokeh:1.3. ((Female focus)). warm lighting, RAW photo.",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 11,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "22",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "((large breasts)), cleavage, disfigured, kitsch, ugly, oversaturated, grain, grainy, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, mutilated, mangled, old, surreal, black and white photograph. Unspeakable-Horrors-32v. child.",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.1"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7891,
+                        "name": "mouth",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8250,
+                        "name": "swimwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/da08c826-a49e-49c5-05db-416ba8007e00/width=450/210736",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UYJ*C$?wXmtltRR*xa-pyE%2t6%2R+xatRax",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1965192639,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "A professional photograph of a tall skinny:1.4 ZOE_VOSS1:1.3 wearing a black dress in a street. very short hair, heavy makeup. blusher. ((detailed face)), detailed teeth, eye contact. sharp features. (((high cheekbones))). slim:1.3, skinny:1.4, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photorealistic:1.37), best quality, hyper detailed, highres, 1girl. ((depth of field)). bokeh:1.3. ((Female focus)). warm lighting, RAW photo. fashion photoshoot.",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 11,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "22",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "((large breasts)), cleavage, disfigured, kitsch, ugly, oversaturated, grain, grainy, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, mutilated, mangled, old, surreal, black and white photograph. Unspeakable-Horrors-32v. child.",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.1"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7938,
+                        "name": "skin",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7891,
+                        "name": "mouth",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e86bee9-cf9d-45eb-bed4-1d581189f300/width=450/210735",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UMIq$E=yuP57t7IA_2={0LWpv~xutlbJ%Mxv",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2967019592,
+                "Model": "deliberate_v2",
+                "steps": 35,
+                "prompt": "A professional photograph of a tall skinny:1.4 supermodel ZOE_VOSS1:1 wearing a suit jacket in a modern office. heavy makeup. ((detailed face)), eye contact. slim:1.3, skinny:1.4, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photorealistic:1.37), best quality, hyper detailed, highres, 1girl. ((depth of field)). bokeh:1.3. ((Female focus)). warm lighting, RAW photo.",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 11,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "25",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "large breasts, cleavage, disfigured, kitsch, ugly, oversaturated, grain, grainy, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, mutilated, mangled, old, surreal, black and white photograph. Unspeakable-Horrors-32v. child.",
+                "Denoising strength": "0.2"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/27ec248e-ec81-4e63-5605-87228699b900/width=450/210734",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UaKdC|.TTJ-;ELbw%fg39aaKxFof-oa}oLjF",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4135095656,
+                "Model": "deliberate_v2",
+                "steps": 35,
+                "prompt": "A professional photograph of a tall skinny:1.4 supermodel ZOE_VOSS1:1 wearing lingerie in a hotel bedroom. short hair, heavy makeup. ((detailed face)), eye contact. slim:1.3, skinny:1.4, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photorealistic:1.37), best quality, hyper detailed, highres, 1girl. ((depth of field)). bokeh:1.3. ((Female focus)). warm lighting, RAW photo.",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 11,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "25",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "large breasts, cleavage, disfigured, kitsch, ugly, oversaturated, grain, grainy, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, mutilated, mangled, old, surreal, black and white photograph. Unspeakable-Horrors-32v. child.",
+                "Denoising strength": "0.2"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c14d92b3-d32f-4f4c-8489-9e73922bb300/width=450/210733",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "ULKT_NyZGux_0jpKtmOG58%3vz-p_Nt6$zIU",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4135095656,
+                "Model": "deliberate_v2",
+                "steps": 35,
+                "prompt": "A professional photograph of a tall skinny:1.4 supermodel ZOE_VOSS1:1 wearing a black bikini on a beach. very short hair, heavy makeup. ((detailed face)), detailed teeth, eye contact. sharp features. slim:1.3, skinny:1.4, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photorealistic:1.37), best quality, hyper detailed, highres, 1girl. ((depth of field)). bokeh:1.3. ((Female focus)). warm lighting, RAW photo.",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 11,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "25",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "large breasts, cleavage, disfigured, kitsch, ugly, oversaturated, grain, grainy, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, mutilated, mangled, old, surreal, black and white photograph. Unspeakable-Horrors-32v. child.",
+                "Denoising strength": "0.2"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9af76510-528f-4cb5-7394-bb65cc5c0600/width=450/210732",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UPIrBD?tyXxZ-3tjW+tQE1RO$%IU?w?H?bIU",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2967019590,
+                "Model": "deliberate_v2",
+                "steps": 35,
+                "prompt": "A professional photograph of a tall skinny:1.4 supermodel ZOE_VOSS1:1 wearing a suit jacket in a modern office. heavy makeup. ((detailed face)), eye contact. slim:1.3, skinny:1.4, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photorealistic:1.37), best quality, hyper detailed, highres, 1girl. ((depth of field)). bokeh:1.3. ((Female focus)). warm lighting, RAW photo.",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 11,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "25",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "large breasts, cleavage, disfigured, kitsch, ugly, oversaturated, grain, grainy, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, mutilated, mangled, old, surreal, black and white photograph. Unspeakable-Horrors-32v. child.",
+                "Denoising strength": "0.2"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd80760c-721c-4967-3e30-523beda18b00/width=450/210731",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UHJas30JC74nI7xB=r4;9Dt5sjt9_Ms.ofn-",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1370425845,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "A professional photograph of a tall skinny:1.4 supermodel ZOE_VOSS1:1 wearing a black dress in a street. very short hair, heavy makeup. ((detailed face)), detailed teeth, eye contact. sharp features. (((high cheekbones))). slim:1.3, skinny:1.4, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photorealistic:1.37), best quality, hyper detailed, highres, 1girl. ((depth of field)). bokeh:1.3. ((Female focus)). warm lighting, RAW photo. fashion photoshoot.",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 11,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "22",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "((large breasts)), cleavage, disfigured, kitsch, ugly, oversaturated, grain, grainy, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, mutilated, mangled, old, surreal, black and white photograph. Unspeakable-Horrors-32v. child.",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.1"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/19964"
+}

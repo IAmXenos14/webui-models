@@ -1,0 +1,1595 @@
+{
+    "id": 19503,
+    "modelId": 8565,
+    "name": "v1.5",
+    "createdAt": "2023-03-06T17:26:15.928Z",
+    "updatedAt": "2023-03-08T00:34:53.784Z",
+    "trainedWords": [
+        "stoya-v2"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>I revisited the original version and decided to upload a more flexible, not quite overbaked version of our girl.  As opposed to the original version, this is from step 2,500 and it plays nicer with different models. YMMV</p>",
+    "model": {
+        "name": "Stoya",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "stoya-v2.pt",
+            "id": 16279,
+            "sizeKB": 18.92578125,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-06T17:30:55.407Z",
+            "hashes": {
+                "AutoV2": "7EDFE501E7",
+                "SHA256": "7EDFE501E7C7DDCF26BD718CD9CC373286BFE5F64DF4D19ED5F98672DD8FC947",
+                "CRC32": "F8D38630",
+                "BLAKE3": "5A069AEFDE2161784C2C766B165623CE080E86A0F675581ACA3ADB9AEE18657F"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/19503"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56963715-af3d-4690-a1ce-b1878a816300/width=450/204789",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UgKKJ_?axtx[~Vxut7t7S~tQxuW=xukCRQRk",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1543880749,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 40,
+                "prompt": "photo of woman, (front to camera), detailed european face, stoya-v2, (aspiring facial expression), (((steampunk style close))), ((steampunk city on the background)), RAW, analog style, ultra detailed photograph, cinematic lighting, artstation, 4k, sharp focus, high resolution, detailed skin, detailed eyes",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cfe7e09a-208f-455f-adf6-42bd4577ed00/width=450/204788",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UFH^t%zq00~UM1=x#lDj4V-o~UR6#,R6yCt+",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1951433430,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 40,
+                "prompt": "stoya-v2 as a hot yakuza girl with tatoos. 3d illustration concept art by akihiko yoshida and gil elvgren, detail portrait, tight clothing, technicolor anime background, sharp focus, detailed face, detailed eyes, hyper realistic,",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "lowres, error, cropped, worst quality, low quality, jpeg artifacts, out of frame, watermark, signature, deformed, ugly, mutilated, disfigured, text, extra limbs, face cut, head cut, extra fingers, extra arms, poorly drawn face, mutation, bad proportions, cropped head, malformed limbs, mutated hands, fused fingers, long neck, nude, naked",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b830d8e8-12df-4e01-3d0d-4b5e540e1200/width=450/204787",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UZLNh[9YteMws5Myo#xttRM}VyI:~moF-:ob",
+            "meta": {
+                "Size": "512x768",
+                "seed": 180942899,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 40,
+                "prompt": "photo of stoya-v2,  dynamic posture, slender physique, pouty, teasing smirk, (extremely detailed:1.3), (textured skin:1.3), (slutty makeup:1.3), small, petite, lipstick, (detailed eyes), highres, realistic lighting, short hair, freckles, choker, (sexy clothes:1.2), (background in public park:1.2), (sunny:1.3), (tribal tattoo:1.3)",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "((naked,  nude, nsfw)), blurry, low resolution, low quality, out of focus, painting, cartoon, 3d, cgi, digital art, masculine, ugly, old, (adult:0.5), tall, deformed, disfigured, missing limbs, extra limbs, messy hair, curly hair, (piercings:1.2), nude, nsfw, monochrome, multiple faces",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/df793dba-d52c-4df1-8e57-64b967079000/width=450/204786",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UKK9V+|=#j^%9b={%1?H1NTK?G57nN-nx[x@",
+            "meta": {
+                "Size": "512x768",
+                "seed": 580541238,
+                "Model": "dreamshaper_331_DRAWING",
+                "steps": 40,
+                "prompt": "portrait photo of stoya-v2 beautiful woman hair updo upsweep nightclub sitting at bar (masterpiece) (best quality) (detailed) (8k) (HDR) (wallpaper) (cinematic lighting) (sharp focus) (intricate)",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "1dceefec07",
+                        "name": "dreamshaper_331_DRAWING",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1dceefec07",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), wierd colors, blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render,child,",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8cfd3635-b1dc-40f8-9ba4-2d5356abb400/width=450/204785",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "URI=DP-;9Z_300tRS3j[9ZRj?HRj~qoLMxj[",
+            "meta": {
+                "Size": "512x768",
+                "seed": 240980867,
+                "Model": "chilloutmix_REALISH",
+                "steps": 40,
+                "prompt": "stoya-v2, Style-Empire, 1girl, corset, cinematic, (portrait), sideface, foreshortening,  breasts, cleavage, ((detailed face, beautiful face, full makeup)), full_body, high_heels, long_hair, solo, depth_of_field, outdoors, realistic,(medium), photorealistic, (ultra-detailed:1.2), ((high ornamented dress)), detailed light, HDR, Empire_dress",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_REALISH",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5973,
+                        "name": "bra",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7327,
+                        "name": "corset",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15735,
+                        "name": "gown",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15715,
+                        "name": "finger",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8979,
+                        "name": "hand",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed43c136-db7c-46a2-b4f7-8882d9fc4d00/width=450/204784",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UYMQePT2b:-qbnxcS#Rj_M%4?Faf~qt8V?js",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1903254853,
+                "Model": "dreamshaper_331_DRAWING",
+                "steps": 40,
+                "prompt": "photo of stoya-v2,  dynamic posture, slender physique, pouty, teasing smirk, (extremely detailed:1.3), (tight tshirt), (slutty makeup:1.3), small, petite, lipstick, (detailed eyes), highres, realistic lighting, short hair, freckles, choker, (sexy clothes:1.2), (background in public park:1.2), (sunny:1.3)",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "1dceefec07",
+                        "name": "dreamshaper_331_DRAWING",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1dceefec07",
+                "negativePrompt": "((naked,  nude, nsfw)), blurry, low resolution, low quality, out of focus, painting, cartoon, 3d, cgi, digital art, masculine, ugly, old, (adult:0.5), tall, deformed, disfigured, missing limbs, extra limbs, messy hair, curly hair, (piercings:1.2), nude, nsfw, monochrome, multiple faces",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.75"
+            },
+            "generationProcess": "inpainting",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 17794,
+                        "name": "vest",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5942,
+                        "name": "necklace",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5787,
+                        "name": "jewelry",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8646,
+                        "name": "belt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8947,
+                        "name": "blouse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21021,
+                        "name": "undershirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7989a3a-6206-420e-5118-1d99fee85f00/width=450/204783",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UDI}R}00x@^k:*5j00nQ8w.l_2RQ~C0eMc?H",
+            "meta": {
+                "Size": "512x768",
+                "seed": 240980866,
+                "Model": "chilloutmix_REALISH",
+                "steps": 40,
+                "prompt": "stoya-v2, Style-Empire, 1girl, corset, cinematic, (portrait), sideface, foreshortening,  breasts, cleavage, ((detailed face, beautiful face, full makeup)), full_body, high_heels, long_hair, solo, depth_of_field, outdoors, realistic,(medium), photorealistic, (ultra-detailed:1.2), ((high ornamented dress)), detailed light, HDR, Empire_dress",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_REALISH",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7327,
+                        "name": "corset",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15735,
+                        "name": "gown",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2435,
+                        "name": "costume",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/67195e0b-9c4a-414e-b28e-cc18d1e2a200/width=450/204782",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UDINy]~U00xv%2E4ozR.5Rxut7SdbWNf-oae",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1543880751,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 40,
+                "prompt": "photo of woman, (front to camera), detailed european face, stoya-v2, (aspiring facial expression), (((steampunk style close))), ((steampunk city on the background)), RAW, analog style, ultra detailed photograph, cinematic lighting, artstation, 4k, sharp focus, high resolution, detailed skin, detailed eyes",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5787,
+                        "name": "jewelry",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5942,
+                        "name": "necklace",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7953,
+                        "name": "coat",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7954,
+                        "name": "jacket",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7818,
+                        "name": "goggles",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2435,
+                        "name": "costume",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3737,
+                        "name": "lady",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15792,
+                        "name": "pendant",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 22196,
+                        "name": "collar",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e0028b1-656f-461a-3779-acaf29fd2300/width=450/204781",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UFHdEJ~o0101JAMy}r%f594pE2^*E4IBJB.7",
+            "meta": {
+                "Size": "512x768",
+                "seed": 580541239,
+                "Model": "dreamshaper_331_DRAWING",
+                "steps": 40,
+                "prompt": "portrait photo of stoya-v2 beautiful woman hair updo upsweep nightclub sitting at bar (masterpiece) (best quality) (detailed) (8k) (HDR) (wallpaper) (cinematic lighting) (sharp focus) (intricate)",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "1dceefec07",
+                        "name": "dreamshaper_331_DRAWING",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1dceefec07",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), wierd colors, blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render,child,",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7891,
+                        "name": "mouth",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7913,
+                        "name": "urban",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8441,
+                        "name": "light",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8266,
+                        "name": "club",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40918474-3a06-4c0d-5c94-68d6e8b12f00/width=450/204780",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UPJjY*D4~DU^VZbEKOJmwdR*Egx]E1oJ%LRQ",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2189578903,
+                "Model": "chilloutmix_REALISH",
+                "steps": 40,
+                "prompt": "stoya-v2, medium shot, professional photoshoot, standing, latex catsuit, skintight dress, black latex dress, short dress, ((muscular)), (defined abs), (boob window, perfect cleavage:1.5), round breasts, deep cleavage, plunging neckline, beautiful lips, thick lips, pink lipstick, detailed eyes, beautiful eyes, colorful eyeliner, colorful eyeshadow",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_REALISH",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "exposed breasts, nipples, head out of frame, face out of frame, man, boy, pregnant, bubble gum, empty background, unicorn, disney face, face out of frame, 3d, animated, skin folds, old, ugly, lightning, hat, penis, balls, cameltoe, multiple penis, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, blue skin, purple skin, vagina, pussy, signature, watermark, username, ugly, duplicate, mutilated, out of frame, extra fingers, mutated hands, poorly drawn, poorly drawn hands, poorly drawn face, deformed, bad anatomy, blurry, extra limbs, disfigured, out of frame, missing arms, missing legs, extra arms, extra legs, fat",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 8968,
+                        "name": "latex clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21780,
+                        "name": "sexual activity",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 334,
+                        "name": "cosplay",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7327,
+                        "name": "corset",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10064,
+                        "name": "explicit nudity",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 20088,
+                        "name": "spandex",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2435,
+                        "name": "costume",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9762ec5f-4bd8-48eb-dc1b-49a7eb9f9600/width=450/204779",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "U9H1VUr]01xu02ICJB~T02Rk?Z0g%|?Z$iIp",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1951433429,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 40,
+                "prompt": "stoya-v2 as a hot yakuza girl with tatoos. 3d illustration concept art by akihiko yoshida and gil elvgren, detail portrait, tight clothing, technicolor anime background, sharp focus, detailed face, detailed eyes, hyper realistic,",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "lowres, error, cropped, worst quality, low quality, jpeg artifacts, out of frame, watermark, signature, deformed, ugly, mutilated, disfigured, text, extra limbs, face cut, head cut, extra fingers, extra arms, poorly drawn face, mutation, bad proportions, cropped head, malformed limbs, mutated hands, fused fingers, long neck, nude, naked",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7938,
+                        "name": "skin",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6628,
+                        "name": "tattoo",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8879,
+                        "name": "back",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5973,
+                        "name": "bra",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2392,
+                        "name": "bikini",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8250,
+                        "name": "swimwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15715,
+                        "name": "finger",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8979,
+                        "name": "hand",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/19503"
+}

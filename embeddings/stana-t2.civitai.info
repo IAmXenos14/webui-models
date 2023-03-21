@@ -1,0 +1,1847 @@
+{
+    "id": 9342,
+    "modelId": 7924,
+    "name": "Stana Katic V.1",
+    "createdAt": "2023-02-11T00:03:41.835Z",
+    "updatedAt": "2023-02-11T00:03:41.835Z",
+    "trainedWords": [
+        "stana-t2"
+    ],
+    "baseModel": "SD 1.4",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Stana Katic",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "stana-t2.pt",
+            "id": 9071,
+            "sizeKB": 36.9169921875,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-02-11T00:06:02.105Z",
+            "hashes": {
+                "AutoV2": "1D5ADD457C",
+                "SHA256": "1D5ADD457C72B5141179FFD4167123C805DC4AA998A5BD5F285E0B6F5FC177B7",
+                "CRC32": "155CE229",
+                "BLAKE3": "CE6DCFC281225E7195D96DD67711CE6D35C0685CE5D1A4396AA5C19A0700521C"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/9342"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1227e13-f97b-49d5-6b9a-e13fe0d2e600/width=450/89720",
+            "nsfw": false,
+            "width": 768,
+            "height": 768,
+            "hash": "UWG*mF%NTf%M~qtR%gt7S~ax%MM{ozf6%2WB",
+            "meta": {
+                "Size": "768x768",
+                "seed": 3058735167,
+                "steps": 34,
+                "prompt": "symetrical face, well positioned eyes, looking at camera, Beautiful portrait of stana katic, by magali villeneuve and greg rutkowski and artgerm and alphonse mucha, intricate, elegant, highly detailed, photorealistic, Stana-t2",
+                "sampler": "DDIM",
+                "cfgScale": 7,
+                "resources": [],
+                "Model hash": "05c41313",
+                "negativePrompt": "anime, cartoon, penis, fake, drawing, illustration, boring, 3d render, long neck, out of frame, extra fingers, mutated hands, ((monochrome)), ((poorly drawn hands)), 3DCG, cgstation, ((flat chested)), red eyes, multiple subjects, extra heads, close up, man asian, text ,watermarks, logo, anime, cartoon, penis, fake, drawing, illustration, boring, 3d render, long neck, out of frame, extra fingers, mutated hands, ((monochrome)), ((poorly drawn hands)), 3DCG, cgstation, ((flat chested)), red eyes, multiple subjects, extra heads, close up, man asian, text ,watermarks, logo"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7954,
+                        "name": "jacket",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7953,
+                        "name": "coat",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 508,
+                        "name": "blonde",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7938,
+                        "name": "skin",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/64da09db-8489-401e-ece8-cb315ea1f900/width=450/89729",
+            "nsfw": false,
+            "width": 688,
+            "height": 688,
+            "hash": "UA8||tof-;%Mxu00IUM{~qog_3xuM{4na|Rj",
+            "meta": {
+                "Size": "688x688",
+                "seed": 574659800,
+                "steps": 38,
+                "prompt": "masterpiece, Stana Katic, High Detail, RAW format, gigapixel, 1girl , kneeling, naked ,moonlight, smiling , closeup, looking at camera, atmospheric lights, god rays, cinematic lighting, composition by Marcin Owczarek,full colour, Stana-t2",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Batch pos": "1",
+                "resources": [],
+                "Batch size": "2",
+                "Model hash": "fca63d8d",
+                "negativePrompt": "(bad_prompt:0.8), futa, liquid hands, deformed hands, fused fingers, fused limbs, crossed eyes, crosseyed, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, text, futa, dickgirl, trans, blur, haze, blur haze, bad anatomy,",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2436,
+                        "name": "suit",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8675,
+                        "name": "long sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8677,
+                        "name": "sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8901,
+                        "name": "blazer",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5787,
+                        "name": "jewelry",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5942,
+                        "name": "necklace",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7953,
+                        "name": "coat",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16028,
+                        "name": "tuxedo",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7954,
+                        "name": "jacket",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d5e9e8b-904b-4521-5a2e-4970a3bd6f00/width=450/89728",
+            "nsfw": false,
+            "width": 2400,
+            "height": 2400,
+            "hash": "UKH.NWxu8_9F4nRj-;%M~qM{t7IUM{xu%Nt7",
+            "meta": {
+                "Size": "600x600",
+                "seed": 965847082,
+                "steps": 28,
+                "prompt": "stana , beautiful, painted style, perfect anatomy, perfect skin, piercing eye's, muscular, strong jawline, full body, photorealistic, high detail, lewd, facial symmetry, textured skin, one person",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [],
+                "Model hash": "05c41313",
+                "negativePrompt": "watermark, blury, cartoonish,  more than one person,",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52286c2a-4b3a-4768-c9f2-d04af3b81b00/width=450/89727",
+            "nsfw": false,
+            "width": 688,
+            "height": 688,
+            "hash": "U58g$]RP_3t74na}IURj00NGIUt7~q-;%Mj[",
+            "meta": {
+                "Size": "688x688",
+                "seed": 574659805,
+                "steps": 38,
+                "prompt": "masterpiece, Stana Katic, High Detail, RAW format, gigapixel, 1girl , kneeling, naked ,moonlight, smiling , closeup, looking at camera, atmospheric lights, god rays, cinematic lighting, composition by Marcin Owczarek,full colour, Stana-t2",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Batch pos": "0",
+                "resources": [],
+                "Batch size": "2",
+                "Model hash": "fca63d8d",
+                "negativePrompt": "(bad_prompt:0.8), futa, liquid hands, deformed hands, fused fingers, fused limbs, crossed eyes, crosseyed, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, text, futa, dickgirl, trans, blur, haze, blur haze, bad anatomy,",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3737,
+                        "name": "lady",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7891,
+                        "name": "mouth",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15715,
+                        "name": "finger",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8979,
+                        "name": "hand",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 508,
+                        "name": "blonde",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/01f7237d-1fe7-41fa-c0c0-8dde9a9d9100/width=450/89726",
+            "nsfw": false,
+            "width": 728,
+            "height": 728,
+            "hash": "UPGuE#EeFr~ByExG%2IVOtxa%3IU?bNHjbjZ",
+            "meta": {
+                "Size": "728x728",
+                "seed": 3978648377,
+                "steps": 60,
+                "prompt": "symetrical face, well positioned eyes, looking at camera, by magali villeneuve and greg rutkowski and artgerm and alphonse mucha, intricate, elegant, highly detailed, photorealistic, trending on artstation, trending on cgsociety, 8 k, sharp focus, by magali villeneuve and greg rutkowski and artgerm and alphonse mucha, intricate, elegant, highly detailed, photorealistic, lewd, nude, Stana-t2",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Batch pos": "1",
+                "resources": [],
+                "Batch size": "4",
+                "Model hash": "05c41313",
+                "negativePrompt": "anime, cartoon, penis, fake, drawing, illustration, boring, 3d render, long neck, out of frame, extra fingers, mutated hands, ((monochrome)), ((poorly drawn hands)), 3DCG, cgstation, ((flat chested)), red eyes, multiple subjects, extra heads, close up, man asian, text ,watermarks, logo, anime, cartoon, penis, fake, drawing, illustration, boring, 3d render, long neck, out of frame, extra fingers, mutated hands, ((monochrome)), ((poorly drawn hands)), 3DCG, cgstation, ((flat chested)), red eyes, multiple subjects, extra heads, close up, man asian, text ,watermarks, logo"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7891,
+                        "name": "mouth",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7938,
+                        "name": "skin",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 508,
+                        "name": "blonde",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34503c29-d8ab-4739-26f1-fda17a046c00/width=450/89725",
+            "nsfw": false,
+            "width": 760,
+            "height": 760,
+            "hash": "UDELj9D+~p9HOX?GRkoL4pM|9Z%2R,IVofM{",
+            "meta": {
+                "Size": "760x760",
+                "seed": 2911780335,
+                "steps": 42,
+                "prompt": "masterpiece, High Detail, RAW format, gigapixel, 1girl , standing , naked , castle, serious, closeup, looking at camera, atmospheric lights, god rays, cinematic lighting, composition by Marcin Owczarek,full colour , Stana-t2, symetrical face, well positioned eyes, looking at camera, Beautiful portrait of stana katic, by magali villeneuve and greg rutkowski and artgerm and alphonse mucha, intricate, elegant, highly detailed, photorealistic, trending on artstation, trending on cgsociety, 8 k, sharp focus, by magali villeneuve and greg rutkowski and artgerm and alphonse mucha, intricate, elegant, highly detailed, photorealistic, trending on artstation, trending on cgsociety, 8 k, sharp focus, High detail RAW color Photo of pale beautiful 30yo woman ((nude)), ((wearing rags, damaged)) cape, realistic, symmetrical, highly detailed, harsh lighting, cinematic lighting, art by artgerm and greg rutkowski and alphonse mucha, ((tornado, sparks, embers)) quad tails, showing breasts, serious eyes, contrast, textured skin, cold skin pores, hasselblad, 45 degree, hard light, gigapixel , feet visible, flawless face, freckles, perfect hairy vagina, by magali villeneuve and greg rutkowski and artgerm and alphonse mucha, intricate, elegant, highly detailed, photorealistic, trending on artstation, trending on cgsociety, 8 k, sharp focus, Lewd, ,((tit fucking red tentacles)), ((tentacle sex)) , Stana-t2",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "Batch pos": "1",
+                "resources": [],
+                "Batch size": "2",
+                "Model hash": "cfa57254",
+                "negativePrompt": "(bad_prompt:0.8), futa, liquid hands, deformed hands, fused fingers, fused limbs, crossed eyes, crosseyed, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, text, futa, dickgirl, trans, blur, haze, blur haze, bad anatomy,, anime, cartoon, penis, fake, drawing, illustration, boring, 3d render, long neck, out of frame, extra fingers, mutated hands, ((monochrome)), ((poorly drawn hands)), 3DCG, cgstation, ((flat chested)), red eyes, multiple subjects, extra heads, close up, man asian, text ,watermarks, logo, anime, cartoon, penis, fake, drawing, illustration, boring, 3d render, long neck, out of frame, extra fingers, mutated hands, ((monochrome)), ((poorly drawn hands)), 3DCG, cgstation, ((flat chested)), red eyes, multiple subjects, extra heads, close up, man asian, text ,watermarks, logo"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 29051,
+                        "name": "silk",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8677,
+                        "name": "sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15735,
+                        "name": "gown",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8675,
+                        "name": "long sleeve",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8947,
+                        "name": "blouse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4b6b3cd-5dac-40e2-f21d-b7cceab30700/width=450/89724",
+            "nsfw": false,
+            "width": 760,
+            "height": 760,
+            "hash": "UGFEoz%f5,~V5laz%L%19GMyIB9a9ujZt6Rj",
+            "meta": {
+                "Size": "760x760",
+                "seed": 2911780327,
+                "steps": 42,
+                "prompt": "masterpiece, High Detail, RAW format, gigapixel, 1girl , standing , naked , castle, serious, closeup, looking at camera, atmospheric lights, god rays, cinematic lighting, composition by Marcin Owczarek,full colour , Stana-t2, symetrical face, well positioned eyes, looking at camera, Beautiful portrait of stana katic, by magali villeneuve and greg rutkowski and artgerm and alphonse mucha, intricate, elegant, highly detailed, photorealistic, trending on artstation, trending on cgsociety, 8 k, sharp focus, by magali villeneuve and greg rutkowski and artgerm and alphonse mucha, intricate, elegant, highly detailed, photorealistic, trending on artstation, trending on cgsociety, 8 k, sharp focus, High detail RAW color Photo of pale beautiful 30yo woman ((nude)), ((wearing rags, damaged)) cape, realistic, symmetrical, highly detailed, harsh lighting, cinematic lighting, art by artgerm and greg rutkowski and alphonse mucha, ((tornado, sparks, embers)) quad tails, showing breasts, serious eyes, contrast, textured skin, cold skin pores, hasselblad, 45 degree, hard light, gigapixel , feet visible, flawless face, freckles, perfect hairy vagina, by magali villeneuve and greg rutkowski and artgerm and alphonse mucha, intricate, elegant, highly detailed, photorealistic, trending on artstation, trending on cgsociety, 8 k, sharp focus, Lewd, ,((tit fucking red tentacles)), ((tentacle sex)) , Stana-t2",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "Batch pos": "1",
+                "resources": [],
+                "Batch size": "2",
+                "Model hash": "cfa57254",
+                "negativePrompt": "(bad_prompt:0.8), futa, liquid hands, deformed hands, fused fingers, fused limbs, crossed eyes, crosseyed, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, text, futa, dickgirl, trans, blur, haze, blur haze, bad anatomy,, anime, cartoon, penis, fake, drawing, illustration, boring, 3d render, long neck, out of frame, extra fingers, mutated hands, ((monochrome)), ((poorly drawn hands)), 3DCG, cgstation, ((flat chested)), red eyes, multiple subjects, extra heads, close up, man asian, text ,watermarks, logo, anime, cartoon, penis, fake, drawing, illustration, boring, 3d render, long neck, out of frame, extra fingers, mutated hands, ((monochrome)), ((poorly drawn hands)), 3DCG, cgstation, ((flat chested)), red eyes, multiple subjects, extra heads, close up, man asian, text ,watermarks, logo"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7891,
+                        "name": "mouth",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 508,
+                        "name": "blonde",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/77aee953-2ec9-4f53-51e4-db150d483600/width=450/89723",
+            "nsfw": false,
+            "width": 600,
+            "height": 600,
+            "hash": "UAE2wg00*J9ZADIoRjt74.og$gw{J8NGs:oz",
+            "meta": {
+                "Size": "600x600",
+                "seed": 4272764836,
+                "steps": 106,
+                "prompt": "masterpiece, High Detail, RAW format, gigapixel, 1girl, Stana Katic , standing , naked , castle, serious, closeup, looking at camera, atmospheric lights, god rays, cinematic lighting, composition by Marcin Owczarek,full colour , Stana-t2",
+                "sampler": "DDIM",
+                "cfgScale": 4,
+                "resources": [],
+                "Model hash": "cfa57254",
+                "negativePrompt": "(bad_prompt:0.8), futa, liquid hands, deformed hands, fused fingers, fused limbs, crossed eyes, crosseyed, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, text, futa, dickgirl, trans, blur, haze, blur haze, bad anatomy,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 508,
+                        "name": "blonde",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16442,
+                        "name": "hairdresser",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7891,
+                        "name": "mouth",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7938,
+                        "name": "skin",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/005b51fa-e5d2-4b19-1d0f-712493928d00/width=450/89722",
+            "nsfw": false,
+            "width": 640,
+            "height": 640,
+            "hash": "UHEyb[-;%M~qxuM{ofxu00RjIU00M{xut7Rj",
+            "meta": {
+                "Size": "640x640",
+                "seed": 2911685623,
+                "steps": 150,
+                "prompt": "masterpiece, High Detail, RAW format, gigapixel, 1girl, Stana Katic , standing , naked , castle, serious, closeup, looking at camera, atmospheric lights, god rays, cinematic lighting, composition by Marcin Owczarek,full colour , Stana-t2",
+                "sampler": "DDIM",
+                "cfgScale": 8,
+                "Batch pos": "0",
+                "resources": [],
+                "Batch size": "2",
+                "Model hash": "fca63d8d",
+                "negativePrompt": "(bad_prompt:0.8), futa, liquid hands, deformed hands, fused fingers, fused limbs, crossed eyes, crosseyed, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, text, futa, dickgirl, trans, blur, haze, blur haze, bad anatomy,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8901,
+                        "name": "blazer",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15715,
+                        "name": "finger",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2436,
+                        "name": "suit",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16028,
+                        "name": "tuxedo",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3737,
+                        "name": "lady",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7953,
+                        "name": "coat",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7954,
+                        "name": "jacket",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8979,
+                        "name": "hand",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9985c1d6-cf4c-4718-ee6c-9841b1490500/width=450/89721",
+            "nsfw": false,
+            "width": 640,
+            "height": 542,
+            "hash": "UJDvWY.TF}^+PC.8^*of?bxtIUNGE2t7$*Rj",
+            "meta": {
+                "Size": "640x640",
+                "seed": 2911685626,
+                "steps": 150,
+                "prompt": "masterpiece, High Detail, RAW format, gigapixel, 1girl, Stana Katic , standing , naked , castle, serious, closeup, looking at camera, atmospheric lights, god rays, cinematic lighting, composition by Marcin Owczarek,full colour , Stana-t2",
+                "sampler": "DDIM",
+                "cfgScale": 8,
+                "Batch pos": "1",
+                "resources": [],
+                "Batch size": "2",
+                "Model hash": "fca63d8d",
+                "negativePrompt": "(bad_prompt:0.8), futa, liquid hands, deformed hands, fused fingers, fused limbs, crossed eyes, crosseyed, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, text, futa, dickgirl, trans, blur, haze, blur haze, bad anatomy,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 508,
+                        "name": "blonde",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7891,
+                        "name": "mouth",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/9342"
+}
