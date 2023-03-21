@@ -1,0 +1,644 @@
+{
+    "id": 19617,
+    "modelId": 16614,
+    "name": "v1.0",
+    "createdAt": "2023-03-07T00:39:11.077Z",
+    "updatedAt": "2023-03-07T03:10:42.453Z",
+    "trainedWords": [
+        "koh_kristinarose"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Kristina Rose",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "koh_kristinarose.pt",
+            "id": 16411,
+            "sizeKB": 24.943359375,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-07T03:06:43.986Z",
+            "hashes": {
+                "AutoV2": "FBBA331224",
+                "SHA256": "FBBA3312240A317FE75923BA99E3D0DA764B7A6427C0594677F684D84B8FFE29",
+                "CRC32": "966D7180",
+                "BLAKE3": "1F423D8E04DB97E4860112E2DB3D9DFDDEE314B882111B572C27B721E3C0BB8B"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/19617"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c483d79c-b779-4a52-9ff4-be110342c200/width=450/206800",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UBJ7p@~U009a00-oE1E2~ot6$*V[Iooz?bRk",
+            "meta": {
+                "Size": "512x768",
+                "seed": 226606522,
+                "Model": "dantionrealmix_10",
+                "steps": 30,
+                "prompt": "Picture, best quality, beautiful smiling Koh_KristinaRose, gold choker, detailed, Egyptian gold armor, white robes looking at viewer, perfect face, perfect eyes, smiling, sharp focus, ancient egyptian oasis, desert, palm spring",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "90d9ab4eff",
+                        "name": "dantionrealmix_10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "90d9ab4eff",
+                "negativePrompt": "veil, shroud, hairpiece, naked, nude, nudity, bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5787,
+                        "name": "jewelry",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5942,
+                        "name": "necklace",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16442,
+                        "name": "hairdresser",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16443,
+                        "name": "haircut",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e89e692-637d-4776-7ba8-489f4765a800/width=450/206348",
+            "nsfw": false,
+            "width": 512,
+            "height": 704,
+            "hash": "UFG[p2w]0J~V4mNyyWba5R9G$Pxu%MnQIAMx",
+            "meta": {
+                "Size": "512x704",
+                "seed": 3306965663,
+                "Model": "protogenX58RebuiltScifi_10",
+                "steps": 56,
+                "prompt": "Picture, best quality, photorealism, full body photo, Koh_KristinaRose sitting on chair, formal attire, opulence, sunlight, sharp shadow, restaurant, diner, detailed, perfect face, perfect eyes, chromatic abberation, sharp focus, bloom:0.4, by Jovana Rikalo",
+                "sampler": "Euler a",
+                "cfgScale": 9,
+                "resources": [
+                    {
+                        "hash": "6a21b428a3",
+                        "name": "protogenX58RebuiltScifi_10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6a21b428a3",
+                "negativePrompt": "cleavage, naked, nude, nudity, bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60dbbe01-4d31-45c9-ba09-b3e27a09b100/width=450/206799",
+            "nsfw": false,
+            "width": 512,
+            "height": 832,
+            "hash": "UCD]k~000K?G_MRP0z={.TRPM{%2X.W.?F9G",
+            "meta": {
+                "Size": "512x832",
+                "seed": 1252838249,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "Picture, best quality, Koh_KristinaRose posing, futuristic cyberpunk combat armor, gloves, grimy, neon, detailed, perfect face, perfect eyes, sharp focus, (futuristic chrome city:1.1), neon lights, LED lights, visor lens",
+                "sampler": "Euler a",
+                "cfgScale": 9,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "cleavage, naked, nude, nudity, bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7953,
+                        "name": "coat",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2435,
+                        "name": "costume",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 508,
+                        "name": "blonde",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2746ac7-1067-4ae8-afd1-36ce923b9500/width=450/206798",
+            "nsfw": false,
+            "width": 512,
+            "height": 704,
+            "hash": "UEF#{*Iox]_2_L?HtRtQtk-:%2Io9Fx[RPjE",
+            "meta": {
+                "Size": "512x704",
+                "seed": 3306965662,
+                "Model": "protogenX58RebuiltScifi_10",
+                "steps": 34,
+                "prompt": "Picture, best quality, photorealism, full body photo, Koh_KristinaRose sitting on chair, opulence, sunlight, sharp shadow, restaurant, diner, detailed, perfect face, perfect eyes, chromatic abberation, sharp focus, bloom:0.4, by Jovana Rikalo",
+                "sampler": "Euler a",
+                "cfgScale": 9,
+                "resources": [
+                    {
+                        "hash": "6a21b428a3",
+                        "name": "protogenX58RebuiltScifi_10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6a21b428a3",
+                "negativePrompt": "cleavage, naked, nude, nudity, bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5232,
+                        "name": "man",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5231,
+                        "name": "male",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8947,
+                        "name": "blouse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5973,
+                        "name": "bra",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8250,
+                        "name": "swimwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/325e66ed-5910-4386-742b-3168075e5000/width=450/206797",
+            "nsfw": false,
+            "width": 512,
+            "height": 704,
+            "hash": "ULE:;X-q1N-;E-M|UXtROlVZw0M{V?R5i0r?",
+            "meta": {
+                "Size": "512x704",
+                "seed": 3306965663,
+                "Model": "protogenX58RebuiltScifi_10",
+                "steps": 56,
+                "prompt": "Picture, best quality, full body photo, Koh_KristinaRose in nightclub, wearing party dress, midriff, hips, neon lights, sharp shadow, dark contrast, detailed, perfect face, perfect eyes, chromatic abberation, sharp focus, bloom:0.4, lightshow",
+                "sampler": "Euler a",
+                "cfgScale": 9,
+                "resources": [
+                    {
+                        "hash": "6a21b428a3",
+                        "name": "protogenX58RebuiltScifi_10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6a21b428a3",
+                "negativePrompt": "cleavage, naked, nude, nudity, bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7afa127f-0e0f-4ed7-fa3a-8a6da1ab4500/width=450/206796",
+            "nsfw": false,
+            "width": 512,
+            "height": 704,
+            "hash": "UTG7N1s+vujcI=S1EeWVELWDt4of$+j=n+ay",
+            "meta": {
+                "Size": "512x704",
+                "seed": 3306965662,
+                "Model": "protogenX58RebuiltScifi_10",
+                "steps": 56,
+                "prompt": "Picture, best quality, full body photo, Koh_KristinaRose in nightclub, wearing party dress, midriff, hips, neon lights, sharp shadow, dark contrast, detailed, perfect face, perfect eyes, chromatic abberation, sharp focus, bloom:0.4, lightshow",
+                "sampler": "Euler a",
+                "cfgScale": 9,
+                "resources": [
+                    {
+                        "hash": "6a21b428a3",
+                        "name": "protogenX58RebuiltScifi_10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6a21b428a3",
+                "negativePrompt": "teeth, cleavage, naked, nude, nudity, bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/19617"
+}

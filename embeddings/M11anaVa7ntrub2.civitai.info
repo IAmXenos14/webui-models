@@ -1,0 +1,239 @@
+{
+    "id": 7858,
+    "modelId": 6486,
+    "name": "M11anaVa7ntrub2",
+    "createdAt": "2023-02-04T23:30:00.035Z",
+    "updatedAt": "2023-02-04T23:30:00.035Z",
+    "trainedWords": [
+        "M11anaVa7ntrub2"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>wasn't truly happy with how the first version came out. So i ran it longer and now much happier </p>",
+    "model": {
+        "name": "Milana Vayntrub",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "M11anaVa7ntrub2.bin",
+            "id": 7857,
+            "sizeKB": 3.75,
+            "type": "Model",
+            "format": "Other",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-02-04T23:31:03.983Z",
+            "hashes": {
+                "AutoV2": "8E5B236749",
+                "SHA256": "8E5B2367499E5D48E6482C382E8A74C50BF9ADCBAE7E3C0E495A67158B118EC0",
+                "CRC32": "98D07C40",
+                "BLAKE3": "9B56EE2DD2F5C43FB173EE3FF3AFFD7A8F8E4B91C747776D1F92C0F7F59E6385"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/7858"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad1fc40e-69ba-4d14-930b-b260c1c5d300/width=450/73909",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UOJHdNIo00WFRg9bx@t3:|oytmn%.mR%rqRj",
+            "meta": {
+                "Size": "512x768",
+                "seed": 881342537,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "M11anaVa7ntrub2, hyper realistic photograph, detail face, summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3179f44e-5e5d-482d-3892-429f550d3000/width=450/73908",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "U9KJo60401$_00-.V:Si0NEf?Jn{~1EM-O-q",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3948658413,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "M11anaVa7ntrub2, hyper realistic photograph,  summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7280d5c8-8bdf-4f61-b61d-015c4c5ec000/width=450/73907",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "USHxpQNFImoyHqtQACs+R3t6=|of*0s+Vsae",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4006076037,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "M11anaVa7ntrub2, hyper realistic photograph,  blue shirt, summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/117794d1-7e63-4f18-9b84-e14045a1ce00/width=450/73906",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UIJtI@000fNID*J7~pQmS~ofxZ?H^+s.IUNH",
+            "meta": {
+                "Size": "512x768",
+                "seed": 881342536,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "M11anaVa7ntrub2, hyper realistic photograph, detail face, summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11dcefa6-f4d7-4427-f1a8-522be4531600/width=450/73905",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UUIXy%~U55V=00M{x]t7IpM|wMof.8xuxFn$",
+            "meta": {
+                "Size": "512x768",
+                "seed": 881342539,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "M11anaVa7ntrub2, hyper realistic photograph, detail face, summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bdf68226-2f86-469c-7325-945afe5d4400/width=450/73904",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UCI}Oz0g00-V00NEu5S~~X^$mTxYqFIURjE3",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2595556135,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "M11anaVa7ntrub2, hyper realistic photograph, detail face, playing tennis, summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e9d5b7be-2f68-435d-85d6-c7bd26e8ee00/width=450/73903",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UKJRNp$v0^J.zXr?=}M{8^?G%goMx?~VR$%M",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2595556137,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "M11anaVa7ntrub2, hyper realistic photograph, detail face, playing tennis, summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/7858"
+}
