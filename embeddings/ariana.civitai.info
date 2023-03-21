@@ -1,0 +1,1852 @@
+{
+    "id": 19183,
+    "modelId": 16241,
+    "name": "v1",
+    "createdAt": "2023-03-06T02:17:11.708Z",
+    "updatedAt": "2023-03-08T00:35:10.471Z",
+    "trainedWords": [
+        "ariana"
+    ],
+    "baseModel": "SD 1.4",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Ariana Grande",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "ariana.pt",
+            "id": 16045,
+            "sizeKB": 6.9462890625,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-06T02:20:52.980Z",
+            "hashes": {
+                "AutoV2": "707B98B569",
+                "SHA256": "707B98B5690A131E92C1017A377040EAD720139072021F4ABDE7E541147586DD",
+                "CRC32": "618BF590",
+                "BLAKE3": "ECA52513271E6C5D56F8CEBB10106DEB1E618406840ACE0CE541DD5ED1CC0E57"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/19183"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9026e9e3-c7ce-4090-623f-d7c0b4566f00/width=450/200893",
+            "nsfw": false,
+            "width": 512,
+            "height": 512,
+            "hash": "UFI#PwD60w0MBn?Inzt7GbEK^*s+.TIT?H%M",
+            "meta": {
+                "Size": "512x512",
+                "seed": 1341618935,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 28,
+                "prompt": "photo of a ariana-10000, dynamic posture, slender physique, pouty, (extremely detailed:1.3), (textured skin:1.3), (slutty makeup:1.3), small, petite, lipstick, (detailed eyes), highres, realistic lighting, high ponytail, cat ears, freckles, choker, (sexy clothes:1.2), (background in public park:1.2), (sunny:1.3),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "blurry, low resolution, low quality, out of focus, painting, cartoon, 3d, cgi, digital art, masculine, ugly, old, (adult:0.5), tall, deformed, disfigured, missing limbs, extra limbs, messy hair, curly hair, (piercings:1.2), nude, nsfw, monochrome, multiple faces",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 18,
+                        "name": "girl",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7938,
+                        "name": "skin",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15699,
+                        "name": "headband",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3552,
+                        "name": "teen",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4810169-f8de-4b37-6361-560216edfd00/width=450/200911",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UDI;hjtR.lkD~no|5R?H0K?HnL?H0xM~IAe.",
+            "meta": {
+                "Size": "512x768",
+                "seed": 99210282,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 40,
+                "prompt": "ariana-10000 ,Masterpiece, best quality, ultra high res, (face focus:1.2), (photorealistic:1.4) , fit, tiny waist, smiling, blushing, pink cheeks, standing, model , tight corset, ( black victorian style dress, beautiful face, makeup:1.4), Chateau de Versailles, France, garden of versailles, flowers, modelshoot style, neutral expression",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "naked, nsfw, nude, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, bad anatomy, crossed eyes",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7153b23d-a66b-49a6-17d4-58a4dde0bf00/width=450/200910",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "U9G7us2n01F_0N?H~C5S00Mz?a^k0ewLI,r?",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3324054053,
+                "Model": "projectUnrealEngine5B_REAL-ISH",
+                "steps": 40,
+                "prompt": "portrait photo of ariana-10000 beautiful woman hair updo upsweep nightclub sitting at bar (masterpiece) (best quality) (detailed) (8k) (HDR) (wallpaper) (cinematic lighting) (sharp focus) (intricate)",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "748ff6eab2",
+                        "name": "projectUnrealEngine5B_REAL-ISH",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "748ff6eab2",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), wierd colors, blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render,child,",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/967ce8ae-bc0c-4b6e-b68b-d65726d3a800/width=450/200909",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UGHmvZ4nXFDV9u-@Ia-:0e?JNE%MxKV{-;nn",
+            "meta": {
+                "Size": "512x768",
+                "seed": 211435693,
+                "Model": "projectUnrealEngine5B_REAL-ISH",
+                "steps": 40,
+                "prompt": "portrait photo of ariana-10000 beautiful woman hair updo upsweep nightclub sitting at bar (masterpiece) (best quality) (detailed) (8k) (HDR) (wallpaper) (cinematic lighting) (sharp focus) (intricate)",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "748ff6eab2",
+                        "name": "projectUnrealEngine5B_REAL-ISH",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "748ff6eab2",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), wierd colors, blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render,child,",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e125a8d-9811-4733-3081-2a2d0f39c000/width=450/200908",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UFH1_JV@B;Mx7io~?b~Bu4?b$%56yE~BM{9F",
+            "meta": {
+                "Size": "512x768",
+                "seed": 969220726,
+                "Model": "projectUnrealEngine5B_REAL-ISH",
+                "steps": 40,
+                "prompt": "portrait photo of ariana-10000 beautiful woman hair updo upsweep nightclub sitting at bar (masterpiece) (best quality) (detailed) (8k) (HDR) (wallpaper) (cinematic lighting) (sharp focus) (intricate)",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "748ff6eab2",
+                        "name": "projectUnrealEngine5B_REAL-ISH",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "748ff6eab2",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), wierd colors, blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render,child,",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16c0ec70-08ad-4510-0460-26f9d3361d00/width=450/200907",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UGKB8n00O@IU_2IU9GkC.T9F$z-;%#E1rqIU",
+            "meta": {
+                "Size": "512x768",
+                "seed": 354348809,
+                "Model": "dreamshaper_331_DRAWING",
+                "steps": 40,
+                "prompt": "professional portrait photograph of a gorgeous (ariana-10000) in winter clothing , sexy smile, ((sultry flirty look)), freckles, beautiful symmetrical face, cute natural makeup, wearing elegant winter fashion clothing, ((standing outside in snowy city street)), stunning modern urban upscale environment, ultra realistic, concept art, elegant, highly detailed, intricate, sharp focus, depth of field, f/1. 8, 85mm, medium shot, mid shot, (centered image composition), (professionally color graded), ((bright soft diffused light)), volumetric fog, trending on instagram, trending on tumblr, hdr 4k, 8k",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "1dceefec07",
+                        "name": "dreamshaper_331_DRAWING",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1dceefec07",
+                "negativePrompt": "",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9b10085b-cc15-4848-6a27-4c5c690b9200/width=450/200906",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UGGH;z^l9t^+~W.89^ozAHo|-ooztRt7$zs.",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2983927751,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 40,
+                "prompt": "ariana-10000, Style-Empire, 1girl, corset, cinematic, (portrait), sideface, foreshortening,  breasts, cleavage, ((detailed face, beautiful face, full makeup)), full body, high_heels, long hair, solo, depth of field, outdoors, realistic,(medium), photorealistic, (ultra-detailed:1.2), ((high ornamented dress)), detailed light, HDR, Empire_dress",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5973,
+                        "name": "bra",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7327,
+                        "name": "corset",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca9eb805-f4d9-4512-a82e-5d80a0418700/width=450/200904",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UDEUoqvL5;0}2c0f-U~CVs^*9ZR*56tR-URP",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1306242099,
+                "Model": "chilloutmix_REALISH",
+                "steps": 40,
+                "prompt": "ariana-10000 as a proncess,  masterpiece, best quality, highest quality, cinematic lighting, (volumetric lighting), extremely detailed CG unity, tall high ponytail, focused, 8k wallpaper, 4k wallpaper, extremely detailed, ultra realistic, photorealistic, sharp focus, absurdres, (HDR:1.2), (high contrast), photograph, detailed and intricate, instagram, portrait, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, cinematic lighting, Style-Princess,",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_REALISH",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "lowres, bad anatomy, bad hands out of frame, two heads, totem pole, several faces, extra fingers, mutated hands, (poorly drawn hands:1.21), (poorly drawn face:1.21), (mutation:1.331), (deformed:1.331), (ugly:1.21), blurry, (bad anatomy:1.21), (bad proportions:1.331), (extra limbs:1.21), cloned face, (anime:1.331), (skinny:1.331), glitchy, makeup, (((large breasts))) (spread legs) squatted ((clip through table)) adherent bodies slimy bodies, (badly visible legs), mutated legs, deformed legs, bad legs, out of frame, two heads, totem pole, several faces, extra fingers, mutated hands, extra hands, extra feet, (poorly drawn hands:1.21), (poorly drawn face:1.21), (mutation:1.331), (deformed:1.331), (ugly:1.21), blurry, (bad anatomy:1.21), (bad proportions:1.331), (extra limbs:1.21), cloned face, (anime:1.331), (skinny:1.331), glitchy, saturated colors, distorted fingers, oversaturation, (",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8979,
+                        "name": "hand",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15715,
+                        "name": "finger",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7953,
+                        "name": "coat",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7954,
+                        "name": "jacket",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 508,
+                        "name": "blonde",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c88a3a43-33e6-4ca5-1070-ae6fe8da2f00/width=450/200903",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UMGuj=~pADIpyDx]~qs.%#t7-:M|E2IV%MxZ",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1306242100,
+                "Model": "chilloutmix_REALISH",
+                "steps": 40,
+                "prompt": "ariana-10000 as a proncess,  masterpiece, best quality, highest quality, cinematic lighting, (volumetric lighting), extremely detailed CG unity, tall high ponytail, focused, 8k wallpaper, 4k wallpaper, extremely detailed, ultra realistic, photorealistic, sharp focus, absurdres, (HDR:1.2), (high contrast), photograph, detailed and intricate, instagram, portrait, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, cinematic lighting, Style-Princess,",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_REALISH",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "lowres, bad anatomy, bad hands out of frame, two heads, totem pole, several faces, extra fingers, mutated hands, (poorly drawn hands:1.21), (poorly drawn face:1.21), (mutation:1.331), (deformed:1.331), (ugly:1.21), blurry, (bad anatomy:1.21), (bad proportions:1.331), (extra limbs:1.21), cloned face, (anime:1.331), (skinny:1.331), glitchy, makeup, (((large breasts))) (spread legs) squatted ((clip through table)) adherent bodies slimy bodies, (badly visible legs), mutated legs, deformed legs, bad legs, out of frame, two heads, totem pole, several faces, extra fingers, mutated hands, extra hands, extra feet, (poorly drawn hands:1.21), (poorly drawn face:1.21), (mutation:1.331), (deformed:1.331), (ugly:1.21), blurry, (bad anatomy:1.21), (bad proportions:1.331), (extra limbs:1.21), cloned face, (anime:1.331), (skinny:1.331), glitchy, saturated colors, distorted fingers, oversaturation, (",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7938,
+                        "name": "skin",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3642,
+                        "name": "black hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15699,
+                        "name": "headband",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6628,
+                        "name": "tattoo",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eaf2e7cf-5c2d-4874-7b37-6a324cd75400/width=450/200901",
+            "nsfw": false,
+            "width": 512,
+            "height": 512,
+            "hash": "UPLNiE~XGXyDcX?cMwV??vxb$*s;.8xbxukB",
+            "meta": {
+                "Size": "512x512",
+                "seed": 3979102432,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 28,
+                "prompt": "photo of a ariana-10000, dynamic posture, slender physique, pouty, (extremely detailed:1.3), (textured skin:1.3), (slutty makeup:1.3), small, petite, lipstick, (detailed eyes), highres, realistic lighting, high ponytail, cat ears, freckles, choker, (sexy clothes:1.2), (background in public park:1.2), (sunny:1.3),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "blurry, low resolution, low quality, out of focus, painting, cartoon, 3d, cgi, digital art, masculine, ugly, old, (adult:0.5), tall, deformed, disfigured, missing limbs, extra limbs, messy hair, curly hair, (piercings:1.2), nude, nsfw, monochrome, multiple faces",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 4081,
+                        "name": "ponytail",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 18,
+                        "name": "girl",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3552,
+                        "name": "teen",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 22237,
+                        "name": "braid",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/288b15f0-c628-45fe-1862-7b5d1e218600/width=450/200900",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UYKv%REkb,D*Y%bunUM{PV-7nNo}cZs:s8kC",
+            "meta": {
+                "Size": "512x768",
+                "seed": 386183034,
+                "Model": "dreamshaper_331_DRAWING",
+                "steps": 40,
+                "prompt": "photograph of a woman, standing on a balcony,  ariana-10000,   long colorful detailed dress, stunning environment, ultra realistic, concept art, elegant, ((intricate)), ((highly detailed)), depth of field, (((professionally color graded))), 8k, 85mm, f/1. 8, art by artgerm and greg rutkowski and alphonse mucha",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "1dceefec07",
+                        "name": "dreamshaper_331_DRAWING",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1dceefec07",
+                "negativePrompt": "black and white, grayscale, collage, cropped head, out of frame, gold interior, gold furniture, blurry, deformed, cripple, ugly, additional arms, additional legs, additional head, two heads, multiple people, group of people, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, bad anatomy, bad proportions, extra limbs, disfigured, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.6"
+            },
+            "generationProcess": "inpainting",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15735,
+                        "name": "gown",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 20425,
+                        "name": "handrail",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7913,
+                        "name": "urban",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16528,
+                        "name": "railing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd125ec6-a706-42b8-0149-076d22ed1700/width=450/200899",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UeJRKvWTyCx]~qsDSiog?vWUW?xt?bkB-pof",
+            "meta": {
+                "Size": "512x768",
+                "seed": 519235335,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 40,
+                "prompt": "ariana-10000 ,Masterpiece, best quality, ultra high res, (face focus:1.2), (photorealistic:1.4) , twin buns, tiny waist, smiling, blushing, pink cheeks, standing, model , tight corset, ( black victorian style dress, beautiful face, makeup:1.4), Chateau de Versailles, France, garden of versailles, flowers, modelshoot style, neutral expression",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "naked, nsfw, nude, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, bad anatomy, crossed eyes",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3737,
+                        "name": "lady",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9622,
+                        "name": "flower",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21780,
+                        "name": "sexual activity",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7327,
+                        "name": "corset",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7842,
+                        "name": "plant",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10064,
+                        "name": "explicit nudity",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15736,
+                        "name": "evening dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 833,
+                        "name": "fashion",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15735,
+                        "name": "gown",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15722,
+                        "name": "flower arrangement",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15723,
+                        "name": "flower bouquet",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d539862-4bda-4513-3ca4-17fd38961100/width=450/200897",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UCLDiK-Xy?Si00?bF0OYpa^kvz$+0KE+-pNe",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3715815370,
+                "Model": "chilloutmix_REALISH",
+                "steps": 40,
+                "prompt": "piercing eyes, looking straight, a 20 year old cuteariana-10000, very happy,long braided hair, wearing an off-shoulder sweater, choker, closeup portrait, in a outdoor cafe in 2015, afternoon light",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_REALISH",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "(greyscale:1.2), paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale))",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7643,
+                        "name": "formal wear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 22237,
+                        "name": "braid",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7630,
+                        "name": "accessories",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3552,
+                        "name": "teen",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7645,
+                        "name": "tie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15715,
+                        "name": "finger",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8979,
+                        "name": "hand",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 22805,
+                        "name": "eating",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3915,
+                        "name": "food",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 18,
+                        "name": "girl",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0ac6976-80bd-4682-934a-cfc618464600/width=450/200896",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UJIEhO4oozM|~W9Z-;D*00RPR*%M0Kofs.-=",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1238277746,
+                "Model": "dreamshaper_331_DRAWING",
+                "steps": 28,
+                "prompt": "modelshoot style, (extremely detailed 8k wallpaper), masterpiece, best quality, ((intricate detail)), highres, ((high ponytail)), (((realism))), (steampunk:1.4), ((full body)), (beautiful young  flight attendant ariana-10000:1.2), skin pores, ((perfect face)), (deep eyes) (detailed pupils), ((detailed hands)), ((detailed fingers)), (spread legs), (white gloves), (tight bodice:1.2), (blue long skirt:1.2), (white shirt :1.3), (skindentation:1.2), (skirt lift:1.3), (bloomers:1.3), stockings, (white thigh boots), aroused, (airplane interior background), cinematic lighting, (tone mapped), ((outline))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "1dceefec07",
+                        "name": "dreamshaper_331_DRAWING",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "1dceefec07",
+                "negativePrompt": "lowres, bad anatomy, (((duplicate))), (bad hands), (((text))), error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, blurry, artist name, censored, (closeup) (poorly drawn face), (bad face), ugly, deformed, mutated, extra limbs, missing limbs, male, unibrow, monochrome, (((3d))), (simple background), (poorly drawn hands), elf, fat, [multiple views], render, (((out of frame))), zoomed in, (feet out of frame) nude, naked, NSFW",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.6"
+            },
+            "generationProcess": "inpainting",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 18,
+                        "name": "girl",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15746,
+                        "name": "skirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7327,
+                        "name": "corset",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4286,
+                        "name": "miniskirt",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8947,
+                        "name": "blouse",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 3552,
+                        "name": "teen",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 15815,
+                        "name": "bicycle",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7727,
+                        "name": "transportation",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7726,
+                        "name": "vehicle",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 2435,
+                        "name": "costume",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c6c236a-ccf8-4970-ec5f-a912f1180600/width=450/200894",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UDGRt}q_Eu~V~TEN9tt60fEL-:Io-,My?FNH",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3613393137,
+                "Model": "deliberate_v11_SEMIREAL",
+                "steps": 40,
+                "prompt": "ariana-10000, Style-Empire, 1girl, corset, cinematic, (portrait), sideface, foreshortening,  breasts, cleavage, ((detailed face, beautiful face, full makeup)), full_body, high_heels, long_hair, solo, depth_of_field, outdoors, realistic,(medium), photorealistic, (ultra-detailed:1.2), ((high ornamented dress)), detailed light, HDR, Empire_dress",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11_SEMIREAL",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))",
+                "Face restoration": "GFPGAN"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7327,
+                        "name": "corset",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5193,
+                        "name": "clothing",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5293,
+                        "name": "underwear",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1718,
+                        "name": "lingerie",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10061,
+                        "name": "suggestive",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5973,
+                        "name": "bra",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7802,
+                        "name": "hair",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1930,
+                        "name": "dress",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 10064,
+                        "name": "explicit nudity",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 21780,
+                        "name": "sexual activity",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6924,
+                        "name": "revealing clothes",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/19183"
+}

@@ -1,0 +1,169 @@
+{
+    "id": 7983,
+    "modelId": 6787,
+    "name": "v1.0",
+    "createdAt": "2023-02-05T12:27:51.519Z",
+    "updatedAt": "2023-02-06T07:55:27.657Z",
+    "trainedWords": [
+        "bs_indiasummer"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>Initial release</p>",
+    "model": {
+        "name": "India Summer",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "bs_indiasummer.pt",
+            "id": 7962,
+            "sizeKB": 6.9169921875,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-02-05T12:31:19.300Z",
+            "hashes": {
+                "AutoV2": "81DC2972BB",
+                "SHA256": "81DC2972BB4C631095A5889E031DA82FC2E8E96B985A7BBF16A849E27EDCD793",
+                "CRC32": "2D179015",
+                "BLAKE3": "5CCFACBDD886DC857A44A89B14B36027ABCDDD10845867F1547A03F2D9F32840"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/7983"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc793847-a74f-4bfa-5697-a7d76c247400/width=450/75253",
+            "nsfw": false,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UOLfgp=EHV.73YaJ+bahAcIpv}oMRmWCI:ay",
+            "meta": {
+                "seed": 3698873841,
+                "steps": 20,
+                "prompt": "bs_indiasummer at the beach in a orange dress, shot on dslr, 8k, detailed face",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "child, childish, 3d, render, cg, painting, drawing, cartoon, anime, comic, lowres, text, low quality, signature, watermark, username, blurry, artist name, bad anatomy, bad hands"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fe561cc-2b4d-47cf-fd0a-3c769d2f3b00/width=450/75259",
+            "nsfw": false,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UHKKNG?b0gjFE2WB_Nx]0#IokBRP4.WBH?t7",
+            "meta": {
+                "seed": 1912985139,
+                "steps": 20,
+                "prompt": "bs_indiasummer in a church with a wedding dress on, blonde hair, shot on dslr, 8k, detailed face",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "child, childish, 3d, render, cg, painting, drawing, cartoon, anime, comic, lowres, text, low quality, signature, watermark, username, blurry, artist name, bad anatomy, bad hands"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1352793-0313-4209-b3fb-1de59924b700/width=450/75258",
+            "nsfw": false,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UCI{,3}[0J?ZUT%K8#9GVtNGIoIWE2M|%0$*",
+            "meta": {
+                "seed": 3857139380,
+                "steps": 20,
+                "prompt": "bs_indiasummer in a restaurant with a magenta dress on, blonde hair, shot on dslr, 8k, detailed face",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "child, childish, 3d, render, cg, painting, drawing, cartoon, anime, comic, lowres, text, low quality, signature, watermark, username, blurry, artist name, bad anatomy, bad hands"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/078d08aa-8faa-4744-1736-7a2eeffdf800/width=450/75257",
+            "nsfw": false,
+            "width": 1024,
+            "height": 1536,
+            "hash": "ULHU@3?wGY?G-=.8-=jE?w-;n,E1o{%3xuD%",
+            "meta": {
+                "seed": 631235409,
+                "steps": 20,
+                "prompt": "bs_indiasummer playing tennis, shot on dslr, 8k, detailed face",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "child, childish, 3d, render, cg, painting, drawing, cartoon, anime, comic, lowres, text, low quality, signature, watermark, username, blurry, artist name, bad anatomy, bad hands"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1582c85f-f47e-48c9-ceab-74893e8e0b00/width=450/75256",
+            "nsfw": false,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UNJQ=xD%NtNH_NW?MxsmxW-:IAtRtmkWIAof",
+            "meta": {
+                "seed": 290725290,
+                "steps": 20,
+                "prompt": "bs_indiasummer cooking food in the kitchen, shot on dslr, 8k, detailed face",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "child, childish, 3d, render, cg, painting, drawing, cartoon, anime, comic, lowres, text, low quality, signature, watermark, username, blurry, artist name, bad anatomy, bad hands"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fccf09b2-77fa-459f-cc50-8335c410cc00/width=450/75255",
+            "nsfw": false,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UQIC~V56u+-;|FxusDv~Io]Tx]+vx]NGE1-p",
+            "meta": {
+                "seed": 52622466,
+                "steps": 20,
+                "prompt": "bs_indiasummer watching a movie in the cinema, shot on dslr, 8k, detailed face",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "child, childish, 3d, render, cg, painting, drawing, cartoon, anime, comic, lowres, text, low quality, signature, watermark, username, blurry, artist name, bad anatomy, bad hands"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf7f1e12-952b-48f4-0999-5aae388dd500/width=450/75254",
+            "nsfw": false,
+            "width": 1024,
+            "height": 1536,
+            "hash": "UUI{dLwJ}HR5^7xuRkX8V[ShNt%MxGRjozs.",
+            "meta": {
+                "seed": 747710037,
+                "steps": 20,
+                "prompt": "bs_indiasummer at the avn awards in a black dress, shot on dslr, 8k, detailed face",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "child, childish, 3d, render, cg, painting, drawing, cartoon, anime, comic, lowres, text, low quality, signature, watermark, username, blurry, artist name, bad anatomy, bad hands"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/7983"
+}
