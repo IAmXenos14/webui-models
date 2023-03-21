@@ -1,0 +1,331 @@
+{
+    "id": 20891,
+    "modelId": 17630,
+    "name": "v1.1",
+    "createdAt": "2023-03-10T00:25:37.163Z",
+    "updatedAt": "2023-03-10T00:26:27.788Z",
+    "trainedWords": [
+        "rubyof33"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>Kept training the previous embedding at a rate of 0.001 until step 1001. Seems improved overall, with some issues with they eyes apparently fixed. The tonality of her hair keeps being more reddish than I'd like, but it's so easy to fix that I think it's not worth retraining from scratch just for that, at least for now. Hope you like it!</p>",
+    "model": {
+        "name": "Ruby O. Fee (Actress)",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "rubyof33.pt",
+            "id": 17418,
+            "sizeKB": 15.919921875,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-10T00:31:00.801Z",
+            "hashes": {
+                "AutoV2": "52C05D8CAA",
+                "SHA256": "52C05D8CAA5EB08BE49D982925F2C0A2343CC4217CD1B9D848821AE39A52F75A",
+                "CRC32": "3DB7716B",
+                "BLAKE3": "BEFD5CF56442BD4140567F9FB9BF3692ABA3B9C668F00AE719174A24CB1396B3"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/20891"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d069713f-359c-49f5-d472-ca72ad902900/width=450/221625",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UCG8i#NbtS~W_3xD00%M_Nr=r=kW?vjZM{xu",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1487268702,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "erotic oil painting of (rubyof33), (walking on the street), (((sleeveless black top with neckline))), perfect thighs, ((cleavage)), (cyberpunk street background), atmospheric lighting, cinematic composition, concept art, digital illustration, detailed, art by brian m viveros and maciej kuciara and mark keathley, natural light, 4K, high-detail, ((perfect eyes)), (detailed pupils), (wearing black jeans), (short hair:1.2), (red lips)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "cartoon, 3d, (disfigured), (bad art), (deformed), (poorly drawn), (extra limbs), (close up), strange colours, blurry, boring, sketch, lacklustre, ((nsfw)), small breast",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/beb4b2f5-13d9-4bd0-e9f8-525ae70ec100/width=450/221624",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UiG*=}%Lo#xa~qxukWkCx^t6%1ofkXf6aeWV",
+            "meta": {
+                "Size": "512x768",
+                "seed": 732128190,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "photo of (rubyof33), a woman as a movie star, modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), ((movie premiere gala)), ((standing on the red carpet)), ((paparazzi in the background)), (looking at viewer), (detailed eyes:1.2), (elegant black dress:1.2), (black hair:1.2)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((nsfw)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a681b06e-6932-4859-ce2e-099b2f526500/width=450/221623",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UUFFEW~q.8?b?H-oWVozx^xaxukWo}ofofbb",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1487268703,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "erotic oil painting of (rubyof33), (walking on the street), (((sleeveless black top with neckline))), perfect thighs, ((cleavage)), (cyberpunk street background), atmospheric lighting, cinematic composition, concept art, digital illustration, detailed, art by brian m viveros and maciej kuciara and mark keathley, natural light, 4K, high-detail, ((perfect eyes)), (detailed pupils), (wearing black jeans), (short hair:1.2), (red lips)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "cartoon, 3d, (disfigured), (bad art), (deformed), (poorly drawn), (extra limbs), (close up), strange colours, blurry, boring, sketch, lacklustre, ((nsfw)), small breast",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a880f8e2-40a7-4f2e-4c48-302ea927d000/width=450/221622",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UHDIqJ4:Iq?H_NiwO?W=-=Rj-pWXK6V@?HNH",
+            "meta": {
+                "Size": "512x768",
+                "seed": 732128194,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "photo of (rubyof33), a woman as a movie star, modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), ((movie premiere gala)), ((standing on the red carpet)), ((paparazzi in the background)), (looking at viewer), (detailed eyes:1.2), (elegant green dress:1.2), (black hair:1.2)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((nsfw)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a80303d9-9bc4-4cab-cc4e-cea6af5e6100/width=450/221621",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UJEx*A01K6-T_ND$S~NGtlR5xuW=9vae-USh",
+            "meta": {
+                "Size": "512x768",
+                "seed": 732128191,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "photo of (rubyof33), a woman as a movie star, modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), ((movie premiere gala)), ((standing on the red carpet)), ((paparazzi in the background)), (looking at viewer), (detailed eyes:1.2), (elegant red dress:1.2), (black hair:1.2)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((nsfw)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08ec2375-580f-41c3-7b5b-3d8198b64d00/width=450/221620",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UEH_V:H=00F3Xm00~q%M?v0L?H?G.SIUnhxu",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1712894460,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "photo of (rubyof33), a woman as a movie star, modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), ((movie premiere gala)), ((standing on the red carpet)), ((paparazzi in the background)), (looking at viewer), (detailed eyes:1.2), (elegant white dress:1.2), (black hair:1.2)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((nsfw)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39ffbdcc-e9a1-4822-36e4-913b7eeb8800/width=450/221619",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UeF5?UV@%M%M~ps.oy%M?at7t7t7xut7s:of",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2513258693,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "erotic oil painting of (rubyof33), (walking on the street), (((sleeveless black top with neckline))), perfect thighs, ((cleavage)), (cyberpunk street background), atmospheric lighting, cinematic composition, concept art, digital illustration, detailed, art by brian m viveros and maciej kuciara and mark keathley, natural light, 4K, high-detail, ((perfect eyes)), (detailed pupils), (wearing black jeans)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "cartoon, 3d, (disfigured), (bad art), (deformed), (poorly drawn), (extra limbs), (close up), strange colours, blurry, boring, sketch, lacklustre, ((nsfw)), small breast",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe4cecb1-c759-4e77-01bd-60cdf480c900/width=450/221618",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UKF~2C~p?bxu~Vae9Zs.~qofs.t6_3xuxaa#",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2513258691,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "erotic oil painting of (rubyof33), (walking on the street), (((sleeveless black top with neckline))), perfect thighs, ((cleavage)), (cyberpunk street background), atmospheric lighting, cinematic composition, concept art, digital illustration, detailed, art by brian m viveros and maciej kuciara and mark keathley, natural light, 4K, high-detail, ((perfect eyes)), (detailed pupils), (wearing black jeans)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "cartoon, 3d, (disfigured), (bad art), (deformed), (poorly drawn), (extra limbs), (close up), strange colours, blurry, boring, sketch, lacklustre, ((nsfw)), small breast",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4ed21b49-8230-4bf5-7819-f3746ee2f200/width=450/221617",
+            "nsfw": false,
+            "width": 768,
+            "height": 1152,
+            "hash": "UVIqu_-UxuV[yE9ax]Io%#aexaxZ~p%1e.WC",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1712894457,
+                "Model": "stablydiffuseds_26",
+                "steps": 25,
+                "prompt": "photo of (rubyof33), a woman as a movie star, modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), ((movie premiere gala)), ((standing on the red carpet)), ((paparazzi in the background)), (looking at viewer), (detailed eyes:1.2), (elegant green dress:1.2), (black hair:1.2)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "hash": "03df69045a",
+                        "name": "stablydiffuseds_26",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "03df69045a",
+                "Hires steps": "15",
+                "Hires upscale": "1.5",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((nsfw)))",
+                "Denoising strength": "0.35"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/20891"
+}

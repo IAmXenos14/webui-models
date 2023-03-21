@@ -1,0 +1,119 @@
+{
+    "id": 22245,
+    "modelId": 18746,
+    "name": "v1.0",
+    "createdAt": "2023-03-12T19:32:55.693Z",
+    "updatedAt": "2023-03-13T12:46:47.806Z",
+    "trainedWords": [
+        "ti-jenna"
+    ],
+    "baseModel": "SD 1.4",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Jenna Haze",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "ti-jenna.pt",
+            "id": 18533,
+            "sizeKB": 6.919921875,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-12T19:36:44.988Z",
+            "hashes": {
+                "AutoV2": "059811350A",
+                "SHA256": "059811350AC6C824E560E82AAC653A65C9F5194FDDDBFCE88ED938D49DB42D66",
+                "CRC32": "77F48F84",
+                "BLAKE3": "24E9ADD0B3D2CB8B47873DCBB405CFAEEBBC18F1FB3BED72B849D7EE9F1AD4D7"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/22245"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f64fd00-cf08-46f2-f186-f384b4023400/width=450/238933",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UPLU%1M{qw%L|}={w|NHvOX8W=smrFMyt7nj",
+            "meta": null,
+            "generationProcess": null,
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0576a3a-409f-409e-b176-9628d0050800/width=450/238937",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UKJQiy5vyDX=%|tJF^XmIu^Z$lIoni]gn5nQ",
+            "meta": {
+                "seed": 2999174039,
+                "steps": 35,
+                "prompt": "(ti-jenna), a high quality (photorealistic:1.35) masterpiece, (wearing mini skirt and lacy blouse:1.35), (hoop earrings), brunette, (lustful glare:1.12), staring at viewer (resentfully:1.3), [pink] (eyeshadow:1.25), (glossy lips:1.2), (perfect brown eyes), centered in frame, facing camera, symmetrical face, ideal human, ultra details, 25mm, f/8, volumetric lighting, 8k, vivid colors, Yousuf Karsh, Mel Ramos, (midjourney-style:0.25)",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "negativePrompt": "(NSFW:1.6), (cleavage:1.4), bad-hands-5, cartoon, CGI, 3D, painting, illustration, monochrome, black and white, desaturated, tattoo, picture frame, text, duplicate"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16013319-ccd5-49b4-f277-d655bae1b700/width=450/238936",
+            "nsfw": false,
+            "width": 512,
+            "height": 512,
+            "hash": "UAI|E]0L00_L0|~B0~Ri5SRQNMV]MJWBrxR-",
+            "meta": {
+                "seed": 3489349654,
+                "steps": 35,
+                "prompt": "wicked goddess (ti-jenna:1.2), a high quality (photorealistic:1.35) portrait, evil masterpiece, (anger:1.3), (staring at viewer with resentment:1.45), (sorcerous:1.35), (hoop earrings), brunette, [black] (eyeshadow:1.25), (glossy lips:1.2), (perfect eyes), centered in frame, facing camera, symmetrical face, ideal human, ultra details, 25mm, f/8, volumetric lighting, 8k, vivid colors, Yousuf Karsh, art by Mel Ramos, (midjourney-style:0.4)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "negativePrompt": "(NSFW:1.6), (cleavage:1.4), bad-hands-5, cartoon, CGI, 3D, painting, illustration, monochrome, black and white, desaturated, tattoo, picture frame, text, duplicate"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0fc7748c-2567-425f-3f2d-cf4d2ee80100/width=450/238935",
+            "nsfw": false,
+            "width": 512,
+            "height": 512,
+            "hash": "UkJPb@}TMx=Z$f$$axWBr=W;SiS5wIaeogxa",
+            "meta": {
+                "seed": 877870470,
+                "steps": 35,
+                "prompt": "wicked goddess (ti-jenna:1.2), a high quality (photorealistic:1.35) portrait, evil masterpiece, (anger:1.3), (staring at viewer with resentment:1.45), (sorcerous:1.6), (hoop earrings), brunette, [black] (eyeshadow:1.25), (glossy lips:1.2), (perfect eyes), centered in frame, facing camera, symmetrical face, ideal human, ultra details, 25mm, f/8, volumetric lighting, 8k, vivid colors, Yousuf Karsh, art by Mel Ramos, (midjourney-style:0.4)",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "negativePrompt": "(NSFW:1.6), (cleavage:1.4), bad-hands-5, cartoon, CGI, 3D, painting, illustration, monochrome, black and white, desaturated, tattoo, picture frame, text, duplicate"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/afccaf0e-9e2f-497f-a388-ef77a3fc6f00/width=450/238934",
+            "nsfw": false,
+            "width": 512,
+            "height": 512,
+            "hash": "UbJ=[mRkAt%LxZah;gWX{yju#mV@wIs:xEn%",
+            "meta": null,
+            "generationProcess": null,
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/22245"
+}

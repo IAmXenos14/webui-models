@@ -1,0 +1,155 @@
+{
+    "id": 7640,
+    "modelId": 6510,
+    "name": "Tat1anaMas1an7",
+    "createdAt": "2023-02-03T23:51:22.751Z",
+    "updatedAt": "2023-02-03T23:51:22.751Z",
+    "trainedWords": [
+        "tat1anamas1an7"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Tatiana Maslany",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "tat1anamas1an7.bin",
+            "id": 7693,
+            "sizeKB": 3.75,
+            "type": "Model",
+            "format": "Other",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-02-03T23:55:53.351Z",
+            "hashes": {
+                "AutoV2": "8149680348",
+                "SHA256": "81496803489BEACEE599BA211560E650EF25CDD3F0624AD04E933DB6D0F2170C",
+                "CRC32": "F004BB11",
+                "BLAKE3": "34D96EA2C8606FE8A336B1516B6ECB2BC9B3D51AE460F728B9DAFBBCAD251551"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/7640"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd678331-c0bb-470f-5324-50413b430f00/width=450/71712",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "U8JHN]7#0dE0HXDg0g=_0.$fh{~VO;x_F~OZ",
+            "meta": {
+                "Size": "512x768",
+                "seed": 324637516,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "Tat1anaMas1an7, hyper realistic photograph, highly detailed face, sundress, cleavage,   summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "huge boobs, far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d8c9045-aa6d-4b48-0147-f431b2c62900/width=450/71715",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UMJ%%kL0A8.6R3^%KQ$zKk%M,.NG~VxttRR*",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4132802817,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "Tat1anaMas1an7, hyper realistic photograph, Sundress, cleavage, smiling, highly detailed face, summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "big breast,far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4fac687-7e5a-4a0b-0005-9c973f581800/width=450/71714",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UHH27f%%9Jt8}[4.D%R.vy4.M{oM-:RPe.T0",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3548148264,
+                "Model": "realisticVisionV13_v13VAEIncluded",
+                "steps": 30,
+                "prompt": "Tat1anaMas1an7, hyper realistic photograph,  She-hulk, :: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "c35782bad8",
+                        "name": "realisticVisionV13_v13VAEIncluded",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "c35782bad8",
+                "negativePrompt": "huge boobs, far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,, far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6d4526a-b7f9-4d65-d0f7-e3895cdf8a00/width=450/71713",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UHJ@p@1Ayq~A0emP0fEN1E0i#lnN?rjK?H%f",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3425790506,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "Tat1anaMas1an7, hyper realistic photograph, highly detailed face, summer:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "big breast,far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/7640"
+}
