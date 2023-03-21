@@ -1,0 +1,179 @@
+{
+    "id": 7298,
+    "modelId": 6223,
+    "name": "1.0",
+    "createdAt": "2023-02-01T20:47:41.473Z",
+    "updatedAt": "2023-03-12T17:17:18.474Z",
+    "trainedWords": [
+        "koh_sashagrey"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Sasha Grey",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "koh_sashagrey.pt",
+            "id": 7380,
+            "sizeKB": 30.9169921875,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-02-02T18:14:21.985Z",
+            "hashes": {
+                "AutoV2": "40E2EAC748",
+                "SHA256": "40E2EAC748C56847DC6A7D0B7837BC0C1CD56244C1AF52E954C642272DC59854",
+                "CRC32": "E1F9D897",
+                "BLAKE3": "658E9059A92126629EB9F0B61CCDBAFE63196979CDC4F9334F6D329DBD62B5BC"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/7298"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4989dd70-17e6-4de1-badf-dcd396dc1000/width=450/67702",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UHG[QP5TE2IA~q-oJBVsT0V?-pbcbcE1-VS5",
+            "meta": {
+                "Size": "512x768",
+                "seed": 183598731,
+                "steps": 50,
+                "prompt": "Picture, best quality, full body photo of Koh_SashaGrey looking over her shoulder, dystopian city, futuristic, perfect face, perfect eyes, smiling, sharp focus, dystopian metropolis background, street, advertisements, dusk, nighttime, neon, volumetric lighting, raytracing",
+                "sampler": "DDIM",
+                "cfgScale": 6,
+                "resources": [],
+                "Model hash": "13a6777c",
+                "negativePrompt": "finger, fingers, hands, bad anatomy, incorrect anatomy, bad legs, incorrect legs, nude, naked, bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7d8ee7e-0e3e-4c59-acad-6f4f3225bb00/width=450/67505",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "URHe5#NaAE^+~Wbc%Ms:pIsSs:9aI:xtxuWB",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3983679194,
+                "steps": 30,
+                "prompt": "beautiful Koh_SashaGrey posing as an army officer, full body, photo referenced, highest quality, high quality, (detailed face and eyes), dusk lighting, high boots, strong makeup, industrial,  outdoor snow forest background",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [],
+                "Model hash": "a122869d",
+                "negativePrompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, out of focus, censorship, ugly, deformed, amateur drawing, odd, bad hands, incorrect hands, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, ((cropped)), worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, lowres, worst quality, low quality, normal quality, ((deformed))), bad anatomy, disfigured, poorly drawn face, mutation, mutated, (extra_limb), (ugly), (poorly drawn hands), messy drawing, broken legs, mask, abs, writing, titles, fonts, monochrome",
+                "First pass size": "0x0",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.7"
+            },
+            "generationProcess": "img2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97b71410-26e2-4842-fdbb-fcbf9234fa00/width=450/67635",
+            "nsfw": false,
+            "width": 576,
+            "height": 768,
+            "hash": "UCIhTk0L0c^%=l?HpaRi.3xb^jM__LITixt8",
+            "meta": {
+                "Size": "576x768",
+                "seed": 1769881609,
+                "steps": 40,
+                "prompt": "Picture, best quality, portrait photo of medieval maid Koh_SashaGrey wearing posing in a field of flowers, looking at viewer, perfect face, perfect eyes, smiling, sharp focus, meadow background, grass, flowers, blue sky",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [],
+                "Model hash": "d0b457ae",
+                "negativePrompt": "bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b258e241-b41e-4a5b-05cd-7608fa651700/width=450/67508",
+            "nsfw": false,
+            "width": 576,
+            "height": 576,
+            "hash": "U6EVcp8~00%]F.sE-.Su%?IW^7%0_KM|IC%L",
+            "meta": {
+                "Size": "576x576",
+                "seed": 390814113,
+                "steps": 40,
+                "prompt": "Picture, best quality,solo, portrait photo of Koh_SashaGrey wearing army outfit posing, looking at viewer, perfect face, perfect eyes, smiling, sharp focus, jungle background, forest, trees, vines, flowers, bushes",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [],
+                "Model hash": "d0b457ae",
+                "negativePrompt": "2girls, 2 woman, bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/78c11287-6c48-49c5-79fb-b4d55b11c000/width=450/67661",
+            "nsfw": false,
+            "width": 512,
+            "height": 832,
+            "hash": "UBKmtloz0g_3^Qsp~XV@ERni~UNe-Ux]xvnN",
+            "meta": {
+                "Size": "512x832",
+                "seed": 1625655952,
+                "steps": 40,
+                "prompt": "Picture, best quality, upper body shot, photo of Koh_SashaGrey in zen garden wearing intricate geisha dress, looking at viewer, perfect face, perfect eyes, smiling, sharp focus, Japanese courtyard background, sakura, lilly, flowers, blue sky, water, koi",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [],
+                "Model hash": "d0b457ae",
+                "negativePrompt": "bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "First pass size": "0x0",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.7"
+            },
+            "generationProcess": "img2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/82eedf68-adef-4ae4-ecb4-eff8cdd8a200/width=450/67854",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UWI|nJ^nn;=~x^?II;jIK5-:?FS0-;W.n$Rj",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4285822863,
+                "steps": 30,
+                "prompt": "Picture, photo referenced, best quality, photo of Koh_SashaGrey wearing party dress, perfect face, perfect eyes, smirking, dark nightclub, advertisements, stage, lightshow, lasershow, neon lights, blacklight, 4k, volumetric lighting, raytracing",
+                "sampler": "Euler a",
+                "cfgScale": 6,
+                "resources": [],
+                "Model hash": "8b2d5d72",
+                "negativePrompt": "topless, bare breasts, exposed breasts, nipples, naked, nude, nudity, (NSFW:1.2), bad anatomy, incorrect anatomy, bad legs, incorrect legs, bad eyes, incorrect eyes, closed eyes, bad face, incorrect face, bad feet, incorrect feet, bad fingers, incorrect fingers, extra fingers, bad hands, incorrect hands, out of frame, bad quality, poor quality, grainy, hat, logo, monochrome, noisy, text, watermark, writing",
+                "Face restoration": "CodeFormer"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/7298"
+}

@@ -1,0 +1,376 @@
+{
+    "id": 17158,
+    "modelId": 14565,
+    "name": "LaurenCohan1",
+    "createdAt": "2023-03-01T15:25:29.065Z",
+    "updatedAt": "2023-03-01T15:25:29.065Z",
+    "trainedWords": [
+        "laurencohan1"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Lauren Cohan",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "laurencohan1.bin",
+            "id": 14438,
+            "sizeKB": 3.75,
+            "type": "Model",
+            "format": "Other",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-01T15:27:14.791Z",
+            "hashes": {
+                "AutoV2": "1CCED8B353",
+                "SHA256": "1CCED8B353C57E130DE1C0E8E977D492A05F205F21033A3AB76A78FAB179D19B",
+                "CRC32": "1B588B68",
+                "BLAKE3": "010D2C8B8042FB91BFA3FD6B5D0759F20F406E0BE77AC9D479C58A4654F33814"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/17158"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/759bd941-dccd-495b-e84d-34763c576500/width=450/174065",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UJJG__EN1I^*00ad9FS1_Nt7?bNH55xaScNZ",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2843235251,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "LaurenCohan1, hyper realistic photograph,  detailed face, film grain, Kodak portra 800, f1.8,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fd41fe35-7c2d-44eb-e4e3-30d90ce82e00/width=450/174071",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UGK0sS^l0x4o0eQ:-4Eg.kIv_2IW9sIVk7Ip",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3096858856,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "LaurenCohan1, hyper realistic photograph,  Highly detailed face,  film grain, Kodak portra 800, f1.8,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": [
+                {
+                    "tag": {
+                        "id": 7626,
+                        "name": "head",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5241,
+                        "name": "photography",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 1441,
+                        "name": "portrait",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7938,
+                        "name": "skin",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5772,
+                        "name": "smile",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7890,
+                        "name": "body part",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 66,
+                        "name": "person",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5163,
+                        "name": "adult",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5484,
+                        "name": "face",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 5133,
+                        "name": "woman",
+                        "isCategory": true
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 6611,
+                        "name": "lipstick",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 7891,
+                        "name": "mouth",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 16442,
+                        "name": "hairdresser",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 192,
+                        "name": "female",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 4211,
+                        "name": "happy",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 9769,
+                        "name": "cosmetics",
+                        "isCategory": false
+                    },
+                    "automated": true
+                },
+                {
+                    "tag": {
+                        "id": 8613,
+                        "name": "neck",
+                        "isCategory": false
+                    },
+                    "automated": true
+                }
+            ]
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb5aae1c-7136-4ff3-b91d-c2ff47016200/width=450/174070",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UJLC^w}@0fIr5-sWkV%2~qxu^+-o0LoLtlSh",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2843235254,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "LaurenCohan1, hyper realistic photograph,  detailed face, film grain, Kodak portra 800, f1.8,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa50eae7-fb4d-4ed7-1695-2cbd752fc800/width=450/174069",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UOI4qu~V5mOD_L%fTII:F^SxD$k9kQoextnh",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3401983602,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "LaurenCohan1, hyper realistic photograph,  detailed face, smiling,  film grain, Kodak portra 800, f1.8,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4fb21174-48cc-4302-396d-47b3c3992500/width=450/174068",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UULDof~XPpOGn2s;?FE3?vah$zkC-;bIxuxD",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3401983603,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "LaurenCohan1, hyper realistic photograph,  detailed face, smiling,  film grain, Kodak portra 800, f1.8,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32ad1b7f-c6b0-4d36-fa83-8bc8ab25f500/width=450/174067",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UIK1BoF{Sxbv00v}1HI:Ji?GxuV@.lXlvgX9",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3482308142,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "LaurenCohan1, hyper realistic photograph,  detailed face, tang top, summer,  film grain, Kodak portra 800, f1.8,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a784f62-954d-44f9-6b56-56e2bac60b00/width=450/174066",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "ULK^T#LM.SJAFe-;.SWB~qMx-Bn3_2sm-oM{",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3096858857,
+                "Model": "deliberate_v2",
+                "steps": 30,
+                "prompt": "LaurenCohan1, hyper realistic photograph,  Highly detailed face,  film grain, Kodak portra 800, f1.8,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "negativePrompt": "far away, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/17158"
+}

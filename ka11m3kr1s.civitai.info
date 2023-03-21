@@ -1,0 +1,155 @@
+{
+    "id": 7579,
+    "modelId": 6454,
+    "name": "Ka11m3Kr1s",
+    "createdAt": "2023-02-03T15:00:45.475Z",
+    "updatedAt": "2023-02-03T15:00:45.475Z",
+    "trainedWords": [
+        "ka11m3kr1s"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Kris Collins KallMeKris",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "ka11m3kr1s.bin",
+            "id": 7642,
+            "sizeKB": 3.75,
+            "type": "Model",
+            "format": "Other",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-02-03T15:05:58.162Z",
+            "hashes": {
+                "AutoV2": "449EA73906",
+                "SHA256": "449EA739065A464E3A292214C15B8BA90886BD2F8E9043D5E2979C8117696AF3",
+                "CRC32": "59867C13",
+                "BLAKE3": "C1EA0746228F9BD434B86E45400ACD20138C1D53A1034AE453E8AEDE237E70FE"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/7579"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7403c3d3-c7be-4b36-3604-747389e7f400/width=450/70991",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UmJj-znho}Ne~A%Mg3Rkg3e.aJayx[WBxDoI",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3369334926,
+                "Model": "realisticVisionV13_v13VAEIncluded",
+                "steps": 30,
+                "prompt": "Ka11m3Kr1s, hyper realistic photograph, winter:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "c35782bad8",
+                        "name": "realisticVisionV13_v13VAEIncluded",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "c35782bad8",
+                "negativePrompt": "huge breast, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa4d1324-3993-404d-fc29-db698a1e7000/width=450/70994",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UII;;S030y-p{^tlI:i^KQR*wID+E0o~niNe",
+            "meta": {
+                "Size": "512x768",
+                "seed": 276406498,
+                "Model": "realisticVisionV13_v13VAEIncluded",
+                "steps": 30,
+                "prompt": "Ka11m3Kr1s, hyper realistic photograph, winter:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "c35782bad8",
+                        "name": "realisticVisionV13_v13VAEIncluded",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "c35782bad8",
+                "negativePrompt": "huge breast, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dcb67317-201a-4d5b-98d1-bbee5294f200/width=450/70993",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "ULKwqT~B0fJp4TV@DiNFGcIpt8xDIT%MtRR-",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3369334928,
+                "Model": "realisticVisionV13_v13VAEIncluded",
+                "steps": 30,
+                "prompt": "Ka11m3Kr1s, hyper realistic photograph, winter:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "c35782bad8",
+                        "name": "realisticVisionV13_v13VAEIncluded",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "c35782bad8",
+                "negativePrompt": "huge breast, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/802eb66e-1b94-45a3-efe7-0fc711ea6a00/width=450/70992",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UTIN{q~Vk=IpyDofO@x]OZRkX9axJVIp$%nh",
+            "meta": {
+                "Size": "512x768",
+                "seed": 446596748,
+                "Model": "deliberate_v11",
+                "steps": 30,
+                "prompt": "Ka11m3Kr1s, hyper realistic photograph, captain marvel, high face detail, portrait, city setting:: film grain, Kodak portra 800, f1.8, golden hour --ar 2:3  --beta --upbeta",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "negativePrompt": "far away, huge breast, black and white, disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ugly, disgusting, poorly drawn, childish, mutilated, mangled, old, surreal, extra nipples, Bra, far away shot, monochrome,"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/7579"
+}

@@ -1,0 +1,342 @@
+{
+    "id": 6445,
+    "modelId": 5538,
+    "name": "v1.0",
+    "createdAt": "2023-01-28T13:18:12.923Z",
+    "updatedAt": "2023-01-28T17:19:15.384Z",
+    "trainedWords": [
+        "KirDun69"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "model": {
+        "name": "Kirsten Dunst",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "KirDun69.pt",
+            "id": 6680,
+            "sizeKB": 15.9345703125,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-01-28T13:21:59.618Z",
+            "hashes": {
+                "AutoV2": "E0A90A05D8",
+                "SHA256": "E0A90A05D8A3B868B6E68BEE7E7F921CC91493797DE6E048FC980CB24CC71373",
+                "CRC32": "772D941A",
+                "BLAKE3": "E373DD31667D9CD6BBCFE00E1EB3B2FBFE16F767A6DF03759E24F7C90BDE2F3B"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/6445"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/41da0918-50e4-4de9-9a18-743590272c00/width=450/57866",
+            "nsfw": false,
+            "width": 800,
+            "height": 1096,
+            "hash": "UBGIZD~A0~9aqENG.RpH00s:WC%gcXt7R6%L",
+            "meta": {
+                "Size": "400x550",
+                "seed": 702797828,
+                "Model": "hasdx_realisticHASDX",
+                "steps": 24,
+                "prompt": "KirDun69, 4K, HDR",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "801a3c06ce",
+                        "name": "hasdx_realisticHASDX",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "801a3c06ce",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.65"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7c58fc1-9479-4527-34e4-87c4e0963e00/width=450/57874",
+            "nsfw": false,
+            "width": 800,
+            "height": 1096,
+            "hash": "U9EBjO1ZDj}]J}0g9b,u-mM|-B%L~oa09]^j",
+            "meta": {
+                "Size": "400x550",
+                "seed": 1930879450,
+                "Model": "deliberate_v11",
+                "steps": 24,
+                "prompt": "KirDun69, highres, masterpiece, 1girl, solo, best quality, realistic, outdoors, looking at viewer, perspective shot, ((Spiderman cosplay)), sweat, petite, navel, (red hair), smirk, aroused,  4K, HDR. by (James C. Christensen:1.2|Jeremy Lipking:1.1).",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.65"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1198fc1b-a116-466e-e9a6-6992c3bf9100/width=450/58248",
+            "nsfw": false,
+            "width": 896,
+            "height": 1280,
+            "hash": "UHJ7O7^%5aE216-o?cNL~WNI%3bJI[M{%M%2",
+            "meta": null,
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/261e9622-43b2-4174-8d83-6389b7f1b300/width=450/57873",
+            "nsfw": false,
+            "width": 800,
+            "height": 1096,
+            "hash": "UBG84R0100^*00%M?a-BEzsCn+t6~VR*Rj9a",
+            "meta": {
+                "Size": "400x550",
+                "seed": 2846581474,
+                "Model": "deliberate_v11",
+                "steps": 24,
+                "prompt": "Photo, attractive KirDun69, (body freckles:0.6), (medium breasts:0.8), (toned body:1.2), messy (red hair:1.1), depth of field. 4K, HDR. by (James C. Christensen:1.2|Jeremy Lipking:1.1).",
+                "sampler": "Euler a",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.65"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1652de60-86eb-4e34-e4d6-072323a74d00/width=450/57872",
+            "nsfw": false,
+            "width": 800,
+            "height": 1096,
+            "hash": "U7I4bDE30M^P00?F_2~WpIxuIAD*~VxG-pE2",
+            "meta": {
+                "Size": "400x550",
+                "seed": 54796276,
+                "Model": "hasdx_realisticHASDX",
+                "steps": 30,
+                "prompt": "KirDun69, [wonder woman cosplay], highly detailed, artstation, smooth, sharp focus, 8K, (cropped jacket:1.2),(underboob), art by artgerm and greg rutkowski and edgar maxence",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "801a3c06ce",
+                        "name": "hasdx_realisticHASDX",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "801a3c06ce",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.65"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/55028e5b-f60d-44e0-31a8-3582642bb600/width=450/57871",
+            "nsfw": false,
+            "width": 800,
+            "height": 1096,
+            "hash": "UBG8o?}r010100DOtQ?u5m-;~B9a?aNGIAxa",
+            "meta": {
+                "Size": "400x550",
+                "seed": 853946968,
+                "Model": "hasdx_realisticHASDX",
+                "steps": 30,
+                "prompt": "KirDun69, [wonder woman cosplay], highly detailed, artstation, smooth, sharp focus, 8K, (red hair:1.2),(underboob), depth of field, bokeh, 4K, HDR. by (James C. Christensen:1.2|Jeremy Lipking:1.1).",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "801a3c06ce",
+                        "name": "hasdx_realisticHASDX",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "801a3c06ce",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.65"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85bcb47f-19e9-4daa-e6d4-1ebededdfd00/width=450/57870",
+            "nsfw": false,
+            "width": 800,
+            "height": 1096,
+            "hash": "UNE_dS~9-m%L-oofELR*0fNIE2IVxa%1-oS5",
+            "meta": {
+                "Size": "400x550",
+                "seed": 685056890,
+                "Model": "hasdx_realisticHASDX",
+                "steps": 30,
+                "prompt": "KirDun69, highres, masterpiece, 1girl, solo, best quality, realistic, outdoors, looking at viewer, perspective shot, ((Spiderman cosplay)), sweat, petite, navel, (red hair), smirk, aroused,, depth of field, bokeh, 4K, HDR. by (James C. Christensen:1.2|Jeremy Lipking:1.1).",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 8,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "801a3c06ce",
+                        "name": "hasdx_realisticHASDX",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "801a3c06ce",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.65"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/acf2d403-d822-4d09-dbf4-d2c3a8f44b00/width=450/57869",
+            "nsfw": false,
+            "width": 800,
+            "height": 1096,
+            "hash": "UFH-ib-50;00EW0K?w%L.S-;VrIUICRkt7t7",
+            "meta": {
+                "Size": "400x550",
+                "seed": 439006758,
+                "Model": "hasdx_realisticHASDX",
+                "steps": 24,
+                "prompt": "KirDun69, highres, masterpiece, 1girl, solo, best quality, realistic, outdoors, looking at viewer, perspective shot, ((Batman cosplay)), sweat, petite, navel, (red hair), smirk, aroused, 4K, HDR. by (James C. Christensen:1.2|Jeremy Lipking:1.1).",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 10,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "801a3c06ce",
+                        "name": "hasdx_realisticHASDX",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "801a3c06ce",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.65"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21f3f07e-c701-4f3f-e93d-bb544ac88e00/width=450/57868",
+            "nsfw": false,
+            "width": 896,
+            "height": 1280,
+            "hash": "U9GkI9Dh0:xZ00~X0L0M0hJP$N?G.8H@~q?G",
+            "meta": {
+                "Size": "450x640",
+                "seed": 3594450645,
+                "Model": "hasdx_realisticHASDX",
+                "steps": 20,
+                "prompt": "KirDun69, ((detailed facial features)), ((wide angle)), long red ginger hair, (freckles:0.6), amazing body, pronounced feminine feature, kitchen, close up, sketch, line-art, (colour gradients:1.0),(tempera:1.1), traditional media, screentones, (watercolour:1.2), chromatic aberration, masterpiece, highest quality, highres, dark academia, retro style, (thick eyebrows:0.8),\n(by (Alphonse Mucha:0.6), by Ilya Kuvshinov,\nby kentaro miura, by yoji shinkawa)",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "801a3c06ce",
+                        "name": "hasdx_realisticHASDX",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "801a3c06ce",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "anime, cartoon, penis, fake, drawing, illustration, boring, 3d render, long neck, out of frame, extra fingers, mutated hands, ((monochrome)), ((poorly drawn hands)), 3DCG, cgstation, ((flat chested)), red eyes, multiple subjects, extra heads, close up, man asian, text ,watermarks, logo, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, 3d, extra fingers, (((mutated hands and fingers))), large breasts, weapons, underwear, panties, cleavage",
+                "Denoising strength": "0.65"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4cfc667-0e51-409a-9663-029779465100/width=450/57867",
+            "nsfw": false,
+            "width": 800,
+            "height": 1096,
+            "hash": "ULDIUa01?aR6~B4:x]a0aeR*Ip$*Io%2jFS4",
+            "meta": {
+                "Size": "400x550",
+                "seed": 1584623817,
+                "Model": "deliberate_v11",
+                "steps": 24,
+                "prompt": "award winning behind photo of a beautiful sexy KirDun69 as a cyberpunk hacker, wearing torn black leather jacket, leather gloves, short spiky pink hair, (micromini:1.3), cute perky butt, bright pink eyes, dense cyberpunk street, dive bar, neon holograms in background, dark, ominous, foggy, high contrast, shiny skin, soft lighting, backlighting, bloom, light sparkles, chromatic aberration, red hair",
+                "sampler": "Euler a",
+                "cfgScale": 10,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "d8691b4d16",
+                        "name": "deliberate_v11",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "d8691b4d16",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "shiny skin, smooth skin, out of frame, (bad fingers:1.2), (bad hands:1.2), (bad limbs:1.1), (bad proportions:1.2), (bad quality:1.1), (poorly drawn face:1.3), ugly face, (poorly drawn:1.2), asymmetrical body, (bad anatomy:1.3), (flesh merge:1.2), (large breasts:1.0), (fleshpile:1.2), tiling, (generic:1.1), glitchy, (gross proportions:1.2), (malformed:1.2), extra arms, extra fingers, extra hands, extra legs, extra limbs, extra body parts, extra breasts, mangled fingers, (masculine:1.3), (bad body structure:1.2), badly drawn hands, (badly drawn:1.2), (amateur art:1.2), missing arms, missing breasts, missing extremities, missing hands, missing limbs, missing lips, mutated hands, (mutation:1.2), poorly drawn hands, asian, abstract, (anime:1.2), (blurry:1.1), cloned face, (deformed:1.2), (disfigured:1.2), double torso, fat, long body, penis, skinny, testicles, , ugly, cropped, jpeg artifacts, signature, blurry.",
+                "Denoising strength": "0.65"
+            },
+            "generationProcess": "txt2imgHiRes",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/6445"
+}
