@@ -1,0 +1,552 @@
+{
+    "id": 6640,
+    "modelId": 5703,
+    "name": "V1",
+    "createdAt": "2023-01-29T18:49:24.393Z",
+    "updatedAt": "2023-01-29T19:17:32.677Z",
+    "trainedWords": [
+        "annakendrick"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>800 epochs</p>",
+    "model": {
+        "name": "Anna Kendrick Embedding",
+        "type": "TextualInversion",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "annakendrick.pt",
+            "id": 6846,
+            "sizeKB": 37.0234375,
+            "type": "Model",
+            "format": "PickleTensor",
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-01-29T18:50:52.994Z",
+            "hashes": {
+                "AutoV2": "27C42E8B0D",
+                "SHA256": "27C42E8B0D2A9B99A70EBBC1B84206A1216BCC5F3F6F1B08D5800BECFF8C1B20",
+                "CRC32": "178220A7",
+                "BLAKE3": "1CA621C64EE7A29A24CCDEBD260A17343271CBC50C33716EF7504E52BCCFDCE4"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/6640"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7e616014-9dcb-4ab4-44ca-476758cd0800/width=450/60395",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UHJ7t4~pE10L0001x]9Z9vMxxD?G-nt5t7xu",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3123170212,
+                "Model": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                "steps": 80,
+                "prompt": "photo of annakendrick-sd-v2-800, wearing a beautiful wedding dress, ultra_realistic, _cinematic_lighting, _ultra_detailed, _detailed_gorgeous_face, _beautiful_young_woman, _olive_skin, _medium_length_white_hair, closeup portrait",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 10,
+                "Batch pos": "0",
+                "resources": [
+                    {
+                        "hash": "df9d99e035",
+                        "name": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "df9d99e035"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf5505be-e35f-4328-1c33-f3bc2fc07600/width=450/60399",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "U6F}l-J7}*%L00E400E25q^*-VaeW9%1^*r;",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3476255946,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "annakendrick-sd-v2-800, Style-Empire, 1girl, corset, cinematic, (portrait), sideface, foreshortening, blonde_hair, breasts, cleavage, full_body, high_heels, long_hair, solo, depth_of_field, outdoors, realistic, photo_\\(medium\\), photorealistic, (ultra-detailed:1.2), ((high ornamented dress)), detailed light, HDR, Empire_dress",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 10,
+                "Batch pos": "0",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "blurry, deformed face, deformed hands, deformed fingers, ugly, bad anatomy, extra fingers, extra hands, deformed eyes, logo, text"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9f6e5fdb-77d4-4e41-e839-5044c366cb00/width=450/60398",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "U8H^;U0N0K~BRiIV02^%00IU57%29uxZ=y%g",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3476255947,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "annakendrick-sd-v2-1000, Style-Empire, 1girl, corset, cinematic, (portrait), sideface, foreshortening, blonde_hair, breasts, cleavage, full_body, high_heels, long_hair, solo, depth_of_field, outdoors, realistic, photo_\\(medium\\), photorealistic, (ultra-detailed:1.2), ((high ornamented dress)), detailed light, HDR, Empire_dress",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 10,
+                "Batch pos": "1",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "blurry, deformed face, deformed hands, deformed fingers, ugly, bad anatomy, extra fingers, extra hands, deformed eyes, logo, text"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d31189fe-a15e-4532-37af-c874da04f900/width=450/60396",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UBF#UD%M}jIU0ONH01IVAG%2x]Rj-Pjc^PVr",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3476255946,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "(annakendrick-sd-v2-800:1.2), Style-Empire, 1girl, corset, cinematic, (portrait), sideface, foreshortening, blonde_hair, breasts, cleavage, full_body, high_heels, long_hair, solo, depth_of_field, outdoors, realistic, photo_\\(medium\\), photorealistic, (ultra-detailed:1.2), ((high ornamented dress)), detailed light, HDR, Empire_dress",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 10,
+                "Batch pos": "1",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "blurry, deformed face, deformed hands, deformed fingers, ugly, bad anatomy, extra fingers, extra hands, deformed eyes, logo, text"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59b3a0bc-f83f-4863-6bf7-8e5445bd2500/width=450/60402",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UED[@90Mx[%M~UE19axux]oLs:%M-;D*$*oy",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3794779135,
+                "Model": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                "steps": 60,
+                "prompt": "photo of  annakendrick-sd-v2-800, a woman walking down the street, (((front to camera))), detailed european face,((smiling)), (((steampunk style close))), ((steampunk city on the background)), RAW, analog style, ultra detailed photograph, cinematic lighting, artstation, 4k, sharp focus, high resolution, detailed skin, detailed eyes, (((head and shoulders closeup portrait style photo)))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6.5,
+                "Batch pos": "1",
+                "resources": [
+                    {
+                        "hash": "df9d99e035",
+                        "name": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "df9d99e035",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a4ce5cdf-8079-42e7-f883-f84a03a41a00/width=450/60397",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "U9CF-SV?Na9F~VxD9aRjtSxZt7of9v%1D%bI",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3794779134,
+                "Model": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                "steps": 60,
+                "prompt": "photo of  annakendrick-sd-v2-800, a woman walking down the street, (((front to camera))), detailed european face,((smiling)), (((steampunk style close))), ((steampunk city on the background)), RAW, analog style, ultra detailed photograph, cinematic lighting, artstation, 4k, sharp focus, high resolution, detailed skin, detailed eyes, (((head and shoulders closeup portrait style photo)))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6.5,
+                "Batch pos": "0",
+                "resources": [
+                    {
+                        "hash": "df9d99e035",
+                        "name": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "df9d99e035",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/378e55e9-d92b-433c-3261-e6489348b300/width=450/60401",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UIFh-OslpdoL.ARj_3of~pt7-;t7I;t7^*of",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3487525359,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "(annakendrick-sd-v2-800), Style-Empire, 8k portrait of beautiful young woman with brown hair, intricate, elegant, highly detailed, majestic, digital photography, art by artgerm ruan jia and greg rutkowski surreal wet paint gold butterfly filigree, broken glass",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 10,
+                "Batch pos": "1",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "[lowres, cropped, watermark, jpeg artifacts, low quality, normal quality, bad anatomy, text error, worst quality] [amateur, multiple, gross, weird uneven] [royalty royals] [sex] [furnishing decorating decoration furniture] [pizza] [sign meme label text watermark signature frame] [simpsons] [nude thousand hand dance kaleidoscope]"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60cf3f3a-3fb6-4971-4aeb-5822d58d1300/width=450/60392",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UNEM5k?F%g~p_3-:xu-;x]bIRlRktRxas:Rj",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3487525358,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "(annakendrick-sd-v2-800:1.2), Style-Empire, 8k portrait of beautiful young woman with brown hair, intricate, elegant, highly detailed, majestic, digital photography, art by artgerm ruan jia and greg rutkowski surreal wet paint gold butterfly filigree, broken glass",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 10,
+                "Batch pos": "1",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "[lowres, cropped, watermark, jpeg artifacts, low quality, normal quality, bad anatomy, text error, worst quality] [amateur, multiple, gross, weird uneven] [royalty royals] [sex] [furnishing decorating decoration furniture] [pizza] [sign meme label text watermark signature frame] [simpsons] [nude thousand hand dance kaleidoscope]"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d977a671-3763-47c7-2105-396918d3ee00/width=450/60400",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UGEo6]V?0M0g9b%2E2xa0Mt7?FNG~VWUD+Rj",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2880982373,
+                "Model": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                "steps": 20,
+                "prompt": "ultra realistic photo portrait of (annakendrick-sd-v2-800:1.1) cosmic energy, colorful, painting burst, beautiful symmetrical face, nonchalant kind look, realistic round eyes, tone mapped, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, dreamy magical atmosphere, art by artgerm and greg rutkowski and alphonse mucha, 4k, 8k",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 13,
+                "Batch pos": "1",
+                "resources": [
+                    {
+                        "hash": "df9d99e035",
+                        "name": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "df9d99e035",
+                "negativePrompt": "frame, border, ugly, fat, overweight, (long neck), bad quality, error, blurry, blurred, high contrast, ((dyed hair)), two heads, multiple heads, two faces, multiple faces, multiple people, group of people"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2eb332f5-5785-466c-ca27-29a947bdbc00/width=450/60394",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UAF#L31602?a00=|$y#kMcrV#lD*~VJVtmb_",
+            "meta": {
+                "Size": "512x768",
+                "seed": 158481554,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "full body portrait of a gorgeous young (annakendrick-sd-v2-800:1.2) as Elsa, d & d, fantasy, intricate, elegant, highly detailed, digital painting, artstation, concept art, matte, sharp focus, illustration, hearthstone, art by artgerm and greg rutkowski and alphonse mucha, 8k",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 10,
+                "Batch pos": "0",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "deformed, cripple, ugly, additional arms, additional legs, additional head, two heads, multiple people, group of people"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/95d6abab-4a24-4cec-2611-b5778f11df00/width=450/60393",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UBI|j?0Cx8xc4T0f^I0gK40M_2-p%%%M4:s+",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3110197458,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "full body portrait of a gorgeous young (annakendrick-sd-v2-800:1.2) as Elsa, d & d, fantasy, intricate, elegant, highly detailed, digital painting, artstation, concept art, matte, sharp focus, illustration, hearthstone, art by artgerm and greg rutkowski and alphonse mucha, 8k",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 10,
+                "Batch pos": "0",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "deformed, cripple, ugly, additional arms, additional legs, additional head, two heads, multiple people, group of people"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/aea19786-ffa2-4a68-c657-4b4860928200/width=450/60389",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UHHm+S00ER~B0N-:IU$%0y-W-p58v}n$$*ac",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2734002765,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "ultra realistic photo portrait of (annakendrick-sd-v2-800:1.2) cosmic energy, colorful, painting burst, beautiful symmetrical face, nonchalant kind look, realistic round eyes, tone mapped, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, dreamy magical atmosphere, art by artgerm and greg rutkowski and alphonse mucha, 4k, 8k",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 9,
+                "Batch pos": "0",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "frame, border, ugly, fat, overweight, (long neck), bad quality, error, blurry, blurred, high contrast, ((dyed hair)), two heads, multiple heads, two faces, multiple faces, multiple people, group of people"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c90fdcda-366f-4103-62d5-16efe02a0d00/width=450/60388",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UfIW_.~VI;IpIqNGxakCbvS2RkV@s:j[NHRk",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2196815366,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "ultra realistic photo portrait of (annakendrick-sd-v2-800:1.2) cosmic energy, colorful, painting burst, beautiful symmetrical face, nonchalant kind look, realistic round eyes, tone mapped, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, dreamy magical atmosphere, art by artgerm and greg rutkowski and alphonse mucha, 4k, 8k",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 9,
+                "Batch pos": "1",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "frame, border, ugly, fat, overweight, (long neck), bad quality, error, blurry, blurred, high contrast, ((dyed hair)), two heads, multiple heads, two faces, multiple faces, multiple people, group of people"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/939bb38b-dc93-413f-bd8e-e63329a40400/width=450/60387",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UGHBb%00.m+vJCR5adozSOpJ-7Ej?aE3%MIp",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2334037663,
+                "Model": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                "steps": 20,
+                "prompt": "ultra realistic photo portrait of (annakendrick-sd-v2-800:1.2) cosmic energy, colorful, painting burst, beautiful symmetrical face, nonchalant kind look, realistic round eyes, tone mapped, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, dreamy magical atmosphere, art by artgerm and greg rutkowski and alphonse mucha, 4k, 8k",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 9,
+                "Batch pos": "0",
+                "resources": [
+                    {
+                        "hash": "13dfc9921f",
+                        "name": "SD_15_CGI_Artistic_NSFW_dreamshaper",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "13dfc9921f",
+                "negativePrompt": "frame, border, ugly, fat, overweight, (long neck), bad quality, error, blurry, blurred, high contrast, ((dyed hair)), two heads, multiple heads, two faces, multiple faces, multiple people, group of people"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0167b39e-3d6c-4047-8086-6560ca4f5300/width=450/60391",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UKGktI~pE1sp,.4:9Z$*RPo0kWWX9aRifiR+",
+            "meta": {
+                "Size": "512x768",
+                "seed": 459536467,
+                "Model": "SD_15",
+                "steps": 60,
+                "prompt": "photo of  (annakendrick-sd-v2-800:1.1), a woman walking down the street, (((front to camera))), detailed european face,(beaming smile), (((steampunk style close))), ((steampunk city on the background)), RAW, analog style, ultra detailed photograph, cinematic lighting, artstation, 4k, sharp focus, high resolution, detailed skin, detailed eyes, (((head and shoulders closeup portrait style photo))), ((smokey eyeshadow))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6.5,
+                "Batch pos": "0",
+                "resources": [
+                    {
+                        "hash": "e1441589a6",
+                        "name": "SD_15",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "e1441589a6",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/65b8083d-0c64-4a63-70c2-7b5ac6794300/width=450/60390",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UBEL$#%N_M00?vog?HD*Ios,?Hxu_2?aRkM{",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1758086432,
+                "Model": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                "steps": 50,
+                "prompt": "photo of annakendrick-sd-v2-800, in a dress modelshoot style, (extremely detailed CG unity 8k wallpaper), full shot body photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 5.5,
+                "Batch pos": "0",
+                "resources": [
+                    {
+                        "hash": "df9d99e035",
+                        "name": "SD_15_Photoreal_NSFW_uberrealisticdreamyp",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "df9d99e035",
+                "negativePrompt": "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), wierd colors, blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        },
+        {
+            "url": "https://imagecache.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4dc9c795-4f91-4de1-95ab-5d4bc8998400/width=450/60386",
+            "nsfw": false,
+            "width": 512,
+            "height": 768,
+            "hash": "UBHBVovJ00TKOY=^~W4n?us%t6%L%#k7D%IU",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2407123970,
+                "Model": "SD_15",
+                "steps": 60,
+                "prompt": "photo of  (annakendrick-sd-v2-800:1.1), a woman walking down the street, (((front to camera))), detailed european face,(beaming smile), (((steampunk style close))), ((steampunk city on the background)), RAW, analog style, ultra detailed photograph, cinematic lighting, artstation, 4k, sharp focus, high resolution, detailed skin, detailed eyes, (((head and shoulders closeup portrait style photo)))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6.5,
+                "Batch pos": "1",
+                "resources": [
+                    {
+                        "hash": "e1441589a6",
+                        "name": "SD_15",
+                        "type": "model"
+                    }
+                ],
+                "Batch size": "2",
+                "Model hash": "e1441589a6",
+                "negativePrompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry, ((((mutated hands and fingers)))), watermark, watermarked, oversaturated, censored, distorted hands, amputation, missing hands, obese, doubled face, double hands, (((two women)))"
+            },
+            "generationProcess": "txt2img",
+            "needsReview": false,
+            "tags": []
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/6640"
+}
